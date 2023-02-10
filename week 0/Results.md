@@ -23,6 +23,17 @@ Milad:~$ ngspice
 ******
 ngspice 2 ->
 ```
+
+### 5. Align installed:<br>
+
+```
+  Building wheel for align (pyproject.toml) ... done
+  Created wheel for align: filename=align-0.9.8-cp39-cp39-linux_x86_64.whl size=16571001 sha256=fc0dd0465eebba673b13208999247d4547429ecca49366b3cb7d98fb79548be3
+  Stored in directory: /home/milad/.cache/pip/wheels/88/ab/c1/4f522a9ce4e05e1fd7288baace24bed38e3872a771a4d8ed69
+Successfully built align
+```
+
+
 <hr>
 
 # Pre-layout 
@@ -68,7 +79,7 @@ Circuits match uniquely.
 ```
 <br>
 
-### 3.Post-layout:
+### 3.Post-layout result:
 
 ![post-](https://user-images.githubusercontent.com/38715276/218046266-f30c0742-79bb-44c4-8dce-3ff623c3417a.png)
 
