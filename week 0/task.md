@@ -5,7 +5,7 @@
 2. Install magic and SKY130 PDKs **(Day 2)** <br>
 &nbsp; &nbsp; &nbsp; &nbsp; a. Refer to [chapter 0 of PV GitHub repo](https://github.com/yathAg/Physical_Verification_SKY130A#Chapter-0---Getting-the-tools) <br>
 3. Install ALIGN tool **(Day 2)** <br>
-&nbsp; &nbsp; &nbsp; &nbsp; a. Refer to [this repo](V) for sample examples <br>
+&nbsp; &nbsp; &nbsp; &nbsp; a. Refer to [this repo](https://github.com/sanampudig/OpenFASoC/tree/main/AUXCELL) for sample examples <br>
 4. Create inverter and perform pre-layout using xschem or ngspice **(Day 3)** <br>
 &nbsp; &nbsp; &nbsp; &nbsp; a. Refer to [this repo](https://github.com/yathAg/Physical_Verification_SKY130A#Chapter-1---Understanding-the-design-flow) for pre-layout and post-layout experiments <br>
 5. Inverter Post-layout characterization using 2) **(Day 3)**<br>
