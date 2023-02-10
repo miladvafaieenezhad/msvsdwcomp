@@ -1,1 +1,1 @@
-lvs 
+the only difference from post-layout folder is that ports are unavailable here.
