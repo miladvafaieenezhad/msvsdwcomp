@@ -1,8 +1,21 @@
 # tools installation
 ### 1. Magic installed:<br>
-![magic_installation](https://user-images.githubusercontent.com/38715276/218030660-fcfcb381-2ebf-4829-8708-a51aedf8ea36.png)
+
+<li> Refer to following webpages to install:<br>
+
+[webpage 1](http://opencircuitdesign.com/magic/index.html) <br>
+[webpage 2](https://github.com/RTimothyEdwards/magic) <br>
+[webpage 3](https://lootr5858.wordpress.com/2020/10/06/magic-vlsi-skywater-pdk-local-installation-guide/)<br>
+[webpage 4](https://www.bananatronics.org/first-steps-with-google-skywater-pdk-free-open-source-silicon-for-everyone/)
+
+  ![magic_installation](https://user-images.githubusercontent.com/38715276/218030660-fcfcb381-2ebf-4829-8708-a51aedf8ea36.png)
 
 ### 2. Xschem installed: <br>
+  
+<li> Refer to following webpages to install:<br>
+
+[webpage 1](https://github.com/StefanSchippers/xschem) <br>
+[webpage 2](https://xschem.sourceforge.io/stefan/index.html) <br>
 
 ![Xschem_installation](https://user-images.githubusercontent.com/38715276/218032470-8d237f84-b5ba-46f3-855a-9948163915e0.png)
 
