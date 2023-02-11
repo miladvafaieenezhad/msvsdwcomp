@@ -1,4 +1,4 @@
-# tools installation
+# Tools installation
 ### 1. Magic installed:<br>
 
 <li> Refer to following webpages to install:<br>
@@ -6,16 +6,24 @@
 [webpage 1](http://opencircuitdesign.com/magic/index.html) <br>
 [webpage 2](https://github.com/RTimothyEdwards/magic) <br>
 [webpage 3](https://lootr5858.wordpress.com/2020/10/06/magic-vlsi-skywater-pdk-local-installation-guide/)<br>
-[webpage 4](https://www.bananatronics.org/first-steps-with-google-skywater-pdk-free-open-source-silicon-for-everyone/)
-
-  ![magic_installation](https://user-images.githubusercontent.com/38715276/218030660-fcfcb381-2ebf-4829-8708-a51aedf8ea36.png)
+[webpage 4](https://www.bananatronics.org/first-steps-with-google-skywater-pdk-free-open-source-silicon-for-everyone/)<br>
+  
+ <li> How to run magic with SKY130A technology:<br>
+   
+  ```
+  tcsh
+  magic -T sky130A <code>
+```
+   
+![magic_installation](https://user-images.githubusercontent.com/38715276/218030660-fcfcb381-2ebf-4829-8708-a51aedf8ea36.png)
 
 ### 2. Xschem installed: <br>
   
 <li> Refer to following webpages to install:<br>
 
 [webpage 1](https://github.com/StefanSchippers/xschem) <br>
-[webpage 2](https://xschem.sourceforge.io/stefan/index.html) 
+[webpage 2](https://xschem.sourceforge.io/stefan/index.html) <br>
+    
 ![Xschem_installation](https://user-images.githubusercontent.com/38715276/218032470-8d237f84-b5ba-46f3-855a-9948163915e0.png)
 
 ### 3. Netgen installed: <br>
@@ -58,13 +66,54 @@ ngspice 2 ->
 Successfully built align
 ```
 
+<li> How to run and test Align:<br>
 
+  First set the environment:
+  ```
+python -m venv general
+source general/bin/activate
+mkdir work
+cd work
+  ```
+  Then run:
+  ```
+schematic2layout.py <NETLIST_DIR> -p <PDK_DIR> -c
+  ````
+  For example:
+  ```
+  schematic2layout.py ../ALIGN-pdk-sky130/examples/five_transistor_ota -p ../pdks/SKY130_PDK/
+  ````
+   
+   
+   
+   
 <hr>
 
 # Pre-layout 
 ### 1. Inverter simulatation in Xschem:
 
-![inverter](https://user-images.githubusercontent.com/38715276/218039911-a98fd9a9-3886-49cd-99e8-da54f784e5e9.png)
+![inverter](https://user-images.githubusercontent.com/38715276/218039911-a98fd9a9-3886-49cd-99e8-da54f784e5e9.png)<br>
+   
+<li> The generated netlist is:
+ 
+ ```
+   ** sch_path: /home/milad/.xschem/xschem_library/VSD/week0/inverter.sch
+**.subckt inverter VN VP A Y
+*.iopin VN
+*.iopin VP
+*.ipin A
+*.opin Y
+XM1 Y A VN VN sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM2 Y A VP VP sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+**.ends
+.end
+ ```
+   
+
 
 ### 2. Inverter_test:<br>
 
