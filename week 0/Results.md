@@ -46,6 +46,10 @@ ngspice 2 ->
 ```
 
 ### 5. Align installed:<br>
+  
+ <li> Refer to following webpage to install:<br>
+
+[webpage 1](https://github.com/ALIGN-analoglayout/ALIGN-public) <br>
 
 ```
   Building wheel for align (pyproject.toml) ... done
