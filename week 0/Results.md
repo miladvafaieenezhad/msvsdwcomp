@@ -15,16 +15,24 @@
 <li> Refer to following webpages to install:<br>
 
 [webpage 1](https://github.com/StefanSchippers/xschem) <br>
-[webpage 2](https://xschem.sourceforge.io/stefan/index.html) <br>
-
+[webpage 2](https://xschem.sourceforge.io/stefan/index.html) 
 ![Xschem_installation](https://user-images.githubusercontent.com/38715276/218032470-8d237f84-b5ba-46f3-855a-9948163915e0.png)
 
 ### 3. Netgen installed: <br>
+  
+<li> Refer to following webpages to install:<br>
+
+[webpage 1](http://opencircuitdesign.com/netgen/index.html) <br>
+[webpage 2](https://github.com/RTimothyEdwards/netgen) <br>
 
 ![Netgen_installation](https://user-images.githubusercontent.com/38715276/218033080-4a8764d6-4231-40e4-a471-759551d569af.png)
 
 ### 4. Ngspice installed:<br>
+  
+<li> Refer to following webpage to install:<br>
 
+[webpage 1](https://ngspice.sourceforge.io/download.html) <br>
+  
 ```
 Milad:~$ ngspice
 ******
