@@ -12,7 +12,7 @@
    
   ```
   tcsh
-  magic -T sky130A <code>
+  magic -T sky130A
 ```
    
 ![magic_installation](https://user-images.githubusercontent.com/38715276/218030660-fcfcb381-2ebf-4829-8708-a51aedf8ea36.png)
@@ -87,6 +87,8 @@ schematic2layout.py <NETLIST_DIR> -p <PDK_DIR> -c
    
    
    
+  
+  
 <hr>
 
 # Pre-layout 
@@ -95,7 +97,7 @@ schematic2layout.py <NETLIST_DIR> -p <PDK_DIR> -c
 ![inverter](https://user-images.githubusercontent.com/38715276/218039911-a98fd9a9-3886-49cd-99e8-da54f784e5e9.png)<br>
    
 <li> The generated netlist is:
- 
+  
  ```
    ** sch_path: /home/milad/.xschem/xschem_library/VSD/week0/inverter.sch
 **.subckt inverter VN VP A Y
@@ -112,14 +114,52 @@ XM2 Y A VP VP sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf
 **.ends
 .end
  ```
-   
+ ### 2. Making a symbol:<br> 
+  ![Untitled](https://user-images.githubusercontent.com/38715276/218259483-b6d89401-873e-4627-a979-69d67692a5a2.png)
 
+### 3. Inverter_test:<br>
 
-### 2. Inverter_test:<br>
+ ![inverter_test](https://user-images.githubusercontent.com/38715276/218040418-f9b21ba6-09d8-405e-9e10-e0b6621c7565.png)<br>
+  
+<li> The generated netlist is:
+  
+  ```
+  ** sch_path: /home/milad/.xschem/xschem_library/VSD/week0/inverter_tran_test.sch
+**.subckt inverter_tran_test
+x1 Vin VDD Vo GND inverter
+Vdd VDD GND 1.8
+Vin Vin GND pulse 0 1.8 10ns 10ns 10ns 40ns 100ns
+**** begin user architecture code
 
- ![inverter_test](https://user-images.githubusercontent.com/38715276/218040418-f9b21ba6-09d8-405e-9e10-e0b6621c7565.png)
+.tran 1n 1u
+.save all
 
-### 3. inverter output:<br>
+ .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  VSD/week0/inverter.sym # of pins=4
+** sym_path: /home/milad/.xschem/xschem_library/VSD/week0/inverter.sym
+** sch_path: /home/milad/.xschem/xschem_library/VSD/week0/inverter.sch
+.subckt inverter  A VP Y VN
+*.iopin VN
+*.iopin VP
+*.ipin A
+*.opin Y
+XM1 Y A VN VN sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM2 Y A VP VP sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+.GLOBAL VDD
+.GLOBAL GND
+.end
+```
+
+### 4. inverter output:<br>
 
 ![inverter_output](https://user-images.githubusercontent.com/38715276/218041601-fcf09c3d-91e9-45a1-abad-abe8dce8657a.png)
 <hr>
