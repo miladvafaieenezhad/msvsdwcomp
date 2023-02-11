@@ -1,5 +1,5 @@
-# Tools installation
-### 1. Magic installed:<br>
+# Section 1: Tools installation
+### 1. Magic installation:<br>
 
 <li> Refer to following webpages to install:<br>
 
@@ -14,32 +14,40 @@
   tcsh
   magic -T sky130A
 ```
-   
+<li> Magic environment: 
+  
 ![magic_installation](https://user-images.githubusercontent.com/38715276/218030660-fcfcb381-2ebf-4829-8708-a51aedf8ea36.png)
 
-### 2. Xschem installed: <br>
+### 2. Xschem installation: <br>
   
 <li> Refer to following webpages to install:<br>
 
 [webpage 1](https://github.com/StefanSchippers/xschem) <br>
 [webpage 2](https://xschem.sourceforge.io/stefan/index.html) <br>
     
+ <li> Xschem environment:
+   
 ![Xschem_installation](https://user-images.githubusercontent.com/38715276/218032470-8d237f84-b5ba-46f3-855a-9948163915e0.png)
 
-### 3. Netgen installed: <br>
+### 3. Netgen installation: <br>
   
 <li> Refer to following webpages to install:<br>
 
 [webpage 1](http://opencircuitdesign.com/netgen/index.html) <br>
 [webpage 2](https://github.com/RTimothyEdwards/netgen) <br>
 
+<li> Netgen environment:
+  
 ![Netgen_installation](https://user-images.githubusercontent.com/38715276/218033080-4a8764d6-4231-40e4-a471-759551d569af.png)
 
-### 4. Ngspice installed:<br>
+### 4. Ngspice installation:<br>
   
 <li> Refer to following webpage to install:<br>
 
 [webpage 1](https://ngspice.sourceforge.io/download.html) <br>
+ 
+  
+<li> Ngspice environment:
   
 ```
 Milad:~$ ngspice
@@ -53,11 +61,13 @@ Milad:~$ ngspice
 ngspice 2 ->
 ```
 
-### 5. Align installed:<br>
+### 5. Align installation:<br>
   
  <li> Refer to following webpage to install:<br>
 
 [webpage 1](https://github.com/ALIGN-analoglayout/ALIGN-public) <br>
+   
+<li> if Align is installed well the following message will be shown on the terminal:
 
 ```
   Building wheel for align (pyproject.toml) ... done
@@ -69,6 +79,7 @@ Successfully built align
 <li> How to run and test Align:<br>
 
   First set the environment:
+  
   ```
 python -m venv general
 source general/bin/activate
@@ -76,6 +87,7 @@ mkdir work
 cd work
   ```
   Then run:
+  
   ```
 schematic2layout.py <NETLIST_DIR> -p <PDK_DIR> -c
   ````
@@ -91,7 +103,7 @@ schematic2layout.py <NETLIST_DIR> -p <PDK_DIR> -c
   
 <hr>
 
-# Pre-layout 
+# Section 2: Pre-layout 
 ### 1. Inverter simulatation in Xschem:
 
 ![inverter](https://user-images.githubusercontent.com/38715276/218039911-a98fd9a9-3886-49cd-99e8-da54f784e5e9.png)<br>
@@ -164,7 +176,7 @@ XM2 Y A VP VP sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf
 ![inverter_output](https://user-images.githubusercontent.com/38715276/218041601-fcf09c3d-91e9-45a1-abad-abe8dce8657a.png)
 <hr>
 
-# Post-layout
+# Section 3: Post-layout
 ### 1. Layout implementation:
 
 ![layout](https://user-images.githubusercontent.com/38715276/218043347-c7aa90b1-2569-415b-a3b8-0d481d64da8f.png)
