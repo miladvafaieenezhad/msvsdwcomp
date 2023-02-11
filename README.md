@@ -6,8 +6,8 @@
   
  ## What I have done in each week is summarized below:<br>
   
-### week 0 <br>
-<br>  
+### [week 0](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%200) <br>
+
 1.  Tools installed<br>
   
 <li> Magic<br>   
@@ -29,6 +29,6 @@
 <li> Post-layout simulation<br>
 <li> Generating layout with using Align<br>
   
-### week 1 <br>
+### [week 1](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%201) <br>
   
 In the process...
