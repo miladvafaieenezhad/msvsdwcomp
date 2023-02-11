@@ -8,7 +8,7 @@
   
 ### week 0 <br>
 <br>  
-1.  Tools installation<br>
+1.  Tools installed<br>
   
 <li> Magic<br>   
 <li> Xschem<br>
@@ -16,16 +16,16 @@
 <li> Netgen <br>
 <li> Align<br>
 <br>
-2. Pre-layout<br>
+2. Pre-layout simulation<br>
   
 <li> Inverter schematic in Xschem<br>
-<li> Making symbole <br>
+<li> Making symbol <br>
 <li> Test and simulate the inverter<br>
 <br>
-3. Post-layout<br>
+3. Post-layout simulation<br>
   
 <li> Layout implementation <br>
-<li> LVS check<br>
+<li> Run LVS with using netgen<br>
 <li> Post-layout simulation<br>
 <li> Generating layout with using Align<br>
   
