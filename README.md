@@ -16,13 +16,13 @@
 <li> Netgen <br>
 <li> Align<br>
 <br>
-2. Pre-layout simulation<br>
+2. Pre-layout simulation for an invrter<br>
   
 <li> Inverter schematic in Xschem<br>
 <li> Making symbol <br>
 <li> Test and simulate the inverter<br>
 <br>
-3. Post-layout simulation<br>
+3. Post-layout simulation for an inverter<br>
   
 <li> Layout implementation <br>
 <li> Run LVS with using netgen<br>
