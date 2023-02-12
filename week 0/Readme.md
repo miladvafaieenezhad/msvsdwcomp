@@ -285,6 +285,8 @@ It is worth mentioning that for symbol in Xschem must be inserted new attribute 
 
 ### 4. layout implementation with Align:
 
+Align is a little tricky; for example, for using Align the number of fingers must be even, or 'W' must be in order of 210nm. Therefore, the result would not match the layout implemented in Magic perfectly because I changed some varriables to get result from Align.
+
 #### a. inverter.gds
 
 ![Align](https://user-images.githubusercontent.com/38715276/218207141-245e9978-d51b-4162-a820-81f21fe60aa0.png)
@@ -294,5 +296,5 @@ It is worth mentioning that for symbol in Xschem must be inserted new attribute 
 
 ![Align](https://user-images.githubusercontent.com/38715276/218207316-b4d5151b-0e1a-4161-9444-9882b6934df9.png)
 
-
+&#9733; Files can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%200/sim/6)
 
