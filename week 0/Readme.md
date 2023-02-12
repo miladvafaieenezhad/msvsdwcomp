@@ -296,5 +296,5 @@ Align is a little tricky; for example, for using Align the number of fingers mus
 
 ![Align](https://user-images.githubusercontent.com/38715276/218207316-b4d5151b-0e1a-4161-9444-9882b6934df9.png)
 
-&#9733; Files can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%200/sim/6)
+&#9733; Files can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%200/sim/6).
 
