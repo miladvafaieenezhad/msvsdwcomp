@@ -16,7 +16,7 @@
 <li> Netgen <br>
 <li> Align<br>
 <br>
-2. Pre-layout simulation for an invrter<br>
+2. Pre-layout simulation for an inverter<br>
   
 <li> Inverter schematic in Xschem<br>
 <li> Making symbol <br>
