@@ -86,6 +86,7 @@ source general/bin/activate
 mkdir work
 cd work
   ```
+  
   Then run:
   
   ```
@@ -96,8 +97,22 @@ schematic2layout.py <NETLIST_DIR> -p <PDK_DIR> -c
   schematic2layout.py ../ALIGN-pdk-sky130/examples/five_transistor_ota -p ../pdks/SKY130_PDK/
   ````
    
-   
-   
+  <li> An initial working directory can be made by copying the required files as follows:
+    
+```
+$ mkdir Lab1_and
+$ cd Lab1_and
+$ mkdir mag
+$ mkdir netgen
+$ mkdir xschem
+$ cd xschem
+$ cp /usr/local/share/pdk/sky130A/libs.tech/xschem/xschemrc .
+$ cp /usr/local/share/pdk/sky130A/libs.tech/ngspice/spinit .spiceinit
+$ cd ../mag
+$ cp /usr/local/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc .magicrc
+$ cd ../netgen
+$ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .  
+```   
    
   
   
