@@ -207,6 +207,8 @@ XM2 Y A VP VP sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf
 # Section 3: Post-layout
 ### 1. Layout implementation:
 
+<li> This layout is implemented manually
+  
 ![layout](https://user-images.githubusercontent.com/38715276/218043347-c7aa90b1-2569-415b-a3b8-0d481d64da8f.png)
 <br>
 
