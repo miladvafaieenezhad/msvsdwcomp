@@ -229,7 +229,7 @@ X0 Y A VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000
 X1 Y A VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000u
 ```
   
-&#9733; Files can be found [here]
+&#9733; Files can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%200/sim/2)
    
 ### 2.LVS result:
 
