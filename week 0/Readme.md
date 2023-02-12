@@ -101,7 +101,7 @@ schematic2layout.py <NETLIST_DIR> -p <PDK_DIR> -c
   schematic2layout.py ../ALIGN-pdk-sky130/examples/five_transistor_ota -p ../pdks/SKY130_PDK/
   ````
    
-  <li> An initial working directory can be made by copying the required files as follows:
+  &#9733; An initial working directory can be made by copying the required files as follows:
     
 ```
 $ mkdir Lab1_and
@@ -118,7 +118,6 @@ $ cd ../netgen
 $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .  
 ```   
    
-  
   
 <hr>
 
@@ -193,8 +192,18 @@ XM2 Y A VP VP sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf
 ### 4. inverter output:<br>
 
 ![inverter_output](https://user-images.githubusercontent.com/38715276/218041601-fcf09c3d-91e9-45a1-abad-abe8dce8657a.png)
+  
+ 
+&#9733; Simulations for this section can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%200/sim/1).
+  
+  
 <hr>
 
+  
+  
+  
+  
+  
 # Section 3: Post-layout
 ### 1. Layout implementation:
 
