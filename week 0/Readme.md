@@ -262,6 +262,18 @@ Circuits match uniquely.
 <br>
 
 ### 3.Post-layout result:
+   
+By setting ports for layout the generated netlist becomes:
+ 
+```
+ * SPICE3 file created from inverter_sub.ext - technology: sky130A
+
+.subckt inverter_sub A VP Y VN
+X0 Y A VN VN sky130_fd_pr__nfet_01v8 ad=7.5e+11p pd=4e+06u as=7.5e+11p ps=4e+06u w=1.5e+06u l=150000u
+X1 Y A VP VP sky130_fd_pr__pfet_01v8 ad=7.5e+11p pd=4e+06u as=7.5e+11p ps=4e+06u w=1.5e+06u l=150000u
+.ends
+```
+   
 
 ![post-](https://user-images.githubusercontent.com/38715276/218046266-f30c0742-79bb-44c4-8dce-3ff623c3417a.png)
 
