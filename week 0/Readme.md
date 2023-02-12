@@ -209,9 +209,28 @@ XM2 Y A VP VP sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf
 
 <li> This layout is implemented manually
   
-![layout](https://user-images.githubusercontent.com/38715276/218043347-c7aa90b1-2569-415b-a3b8-0d481d64da8f.png)
-<br>
+![layout](https://user-images.githubusercontent.com/38715276/218043347-c7aa90b1-2569-415b-a3b8-0d481d64da8f.png) <br>
+  
+ <li> By running following commands:
+   
+   ```
+   save
+   extract all
+   ext2spice scale off 
+   ext2spice
+   ```
+  
+ The extracted spice netlist is:
+  
+  ```
+  * SPICE3 file created from inverter_sub.ext - technology: sky130A
 
+X0 Y A VN VN sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000u
+X1 Y A VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000u
+```
+  
+&#9733; Files can be found [here]
+   
 ### 2.LVS result:
 
 ```
