@@ -274,9 +274,13 @@ X1 Y A VP VP sky130_fd_pr__pfet_01v8 ad=7.5e+11p pd=4e+06u as=7.5e+11p ps=4e+06u
 .ends
 ```
    
-
+ By using this netlist in Xschem, the post-layout result is:
+   
 ![post-](https://user-images.githubusercontent.com/38715276/218046266-f30c0742-79bb-44c4-8dce-3ff623c3417a.png)
+   
+It is worth mentioning that for symbol in Xschem must be inserted new attribute in this step.. 
 
+&#9733; The related files for Xschem and Magic can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%200/sim/4) and [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%200/sim/5), respectively
 <br>
 
 ### 4. layout implementation with Align:
