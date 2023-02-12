@@ -255,7 +255,10 @@ Property mult in circuit2 has no matching property in circuit1
 Cells have no pins;  pin matching not needed.
 Device classes inverter_sub.spice and inverter_xschem.spice are equivalent.
 Circuits match uniquely.
+   
 ```
+   
+ They match.
 <br>
 
 ### 3.Post-layout result:
