@@ -231,7 +231,11 @@ X1 Y A VP VP sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000
   
 &#9733; Files can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%200/sim/2)
    
-### 2.LVS result:
+### 2. LVS check:
+   
+ Now generated netlist of [schematic](https://github.com/miladvafaieenezhad/msvsdwcomp/blob/main/week%200/Readme.md) and [layout](https://github.com/miladvafaieenezhad/msvsdwcomp/blob/main/week%200/Readme.md) must be compared.<br>
+   
+By running <code> lvs inverter_sub.spice inverter_xschem.spice </code> in netgen for this [forlder](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%200/sim/3) the result is:
 
 ```
 Subcircuit summary:
