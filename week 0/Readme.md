@@ -1,3 +1,4 @@
+&#9733; there is inseted some useful webpages to install tools other tahn those introduced in [Task_week0](https://github.com/miladvafaieenezhad/msvsdwcomp/blob/main/week%200/Task_week0.md).
 # Section 1: Tools installation
 ### 1. Magic installation:<br>
 
