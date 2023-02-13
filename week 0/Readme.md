@@ -217,6 +217,7 @@ XM2 Y A VP VP sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf
    save
    extract all
    ext2spice scale off 
+   ext2spice cthresh infinite
    ext2spice
    ```
   
