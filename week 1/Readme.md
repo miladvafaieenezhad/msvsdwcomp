@@ -1,4 +1,5 @@
-# Week 1 AIs
+# VSD Mixed-signal PD Research Program planning-Action Items
+## week 1
 1. Install ALIGN tool<br>
      a. Refer to this repo for sample examples<br>
 2. Inverter post-layout characterization using 9) <br>
