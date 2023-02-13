@@ -6,10 +6,9 @@
   
  ## What I have done in each week is summarized below:<br>
   
-### [week 0](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%200) <br>
-
-1.  Tools installed<br>
-  
+### [week 0](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%200)
+<br>  
+1. Tools installed
 <li> Magic<br>   
 <li> Xschem<br>
 <li> Ngspice<br>
