@@ -1,4 +1,5 @@
 # VSD Mixed-signal PD Research Program planning-Action Items
+## week 0
 
 1. If you have a windows machine, install Oracle virtual box with Ubuntu 20.04 - RAM at least 4GB, hard-disk atleast 50GB **(Day 1)** <br>
 &nbsp; &nbsp; &nbsp; &nbsp; a. First 5 lectures of [VSD Open source tool installation](https://www.udemy.com/course/vsd-a-complete-guide-to-install-open-source-eda-tools/) course <br>
