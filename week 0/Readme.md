@@ -285,7 +285,7 @@ It is worth mentioning that for symbol in Xschem must be inserted new attribute 
 
 ### 4. layout implementation with Align:
 
-Align is a little tricky; for example, for using Align the number of fingers must be even, or 'W' must be in order of 210nm. Therefore, the result would not match the layout implemented in Magic perfectly because I changed some varriables to get result from Align.
+Align is a little tricky; for example, for using Align the number of fingers must be even, 'W' must be in order of 210nm, and the name of the folder, SPICE file, and top-design name should match. Therefore, the result would not match the layout implemented in Magic perfectly because I changed some varriables to get result from Align.
 
 #### a. inverter.gds
 
