@@ -118,6 +118,12 @@ $ cd ../netgen
 $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .  
 ```   
    
+&#9734; It is recommended to install Gaw and Klayout, as well.   
+   
+   
+   
+   
+   
   
 <hr>
 
