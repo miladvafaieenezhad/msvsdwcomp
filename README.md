@@ -30,4 +30,4 @@
   
 ### [week 1](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%201) <br>
   
-In the process...
+Post-layout simulation for Inverter by using Align
