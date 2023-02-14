@@ -11,5 +11,17 @@ X3 VP A Y VP sky130_fd_pr__pfet_01v8 w=8.4 l=0.15
 .ends
 ````
 
-<li> The generated file by magic can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%201/sim/1). <br>
-<li> Files related to post-layout simulation can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%201/sim/2)
+
+
+
+
+The generated file by magic can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%201/sim/1). 
+
+
+
+Files related to post-layout simulation can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%201/sim/2).
+
+
+
+
+
