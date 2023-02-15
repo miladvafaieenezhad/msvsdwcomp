@@ -25,12 +25,13 @@ X3 VP A Y VP sky130_fd_pr__pfet_01v8 w=8.4 l=0.15
 # Section 2: Simulation of FN in Xschem  
 
 
-FN is defined as:
+<li> FN is defined as:
 
 ```
 Y = [(B + D) . (A + C) + E.F]'
 ```
- The schematic is like:
+  
+ <li> The schematic is like:
  
 ![Untitled](https://user-images.githubusercontent.com/38715276/218955648-f302a944-3e34-486d-a526-aaa98d1f50bd.png)
 
@@ -54,5 +55,5 @@ and the delay equals 0.35ns:
 
 ![Untitled](https://user-images.githubusercontent.com/38715276/218959207-1f8b855a-0f72-4dbe-9e3d-300f6b71d0a1.png)
 
-
+&#9734; the simulation folder can e found [here]().
  
