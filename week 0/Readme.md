@@ -127,7 +127,7 @@ $ cp /usr/local/share/pdk/sky130A/libs.tech/netgen//sky130A_setup.tcl .
   
 <hr>
 
-# Section 2: Pre-layout 
+# Section 2: Pre-layout of an Inverter
 ### 1. Inverter simulatation in Xschem:
 
 ![inverter](https://user-images.githubusercontent.com/38715276/218039911-a98fd9a9-3886-49cd-99e8-da54f784e5e9.png)<br>
@@ -210,7 +210,10 @@ XM2 Y A VP VP sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf
   
   
   
-# Section 3: Post-layout
+  
+  
+  
+# Section 3: Post-layout of an Inverter
 ### 1. Layout implementation:
 
 <li> This layout is implemented manually
