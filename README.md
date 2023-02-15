@@ -30,4 +30,10 @@
   
 ### [week 1](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%201) <br>
   
-Post-layout simulation for Inverter by using Align
+1. Post-layout simulation for Inverter by using Align <br>
+
+2. Pre-layout simulation of FN
+
+<li> Schematic implementation
+<li> Test and simulation
+<li> calculation of the delay
