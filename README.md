@@ -27,13 +27,14 @@
 <li> Run LVS with using netgen<br>
 <li> Post-layout simulation<br>
 <li> Generating layout with using Align<br>
+<hr>
   
-### [week 1](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%201) <br>
-  
-1. Post-layout simulation for Inverter by using Align <br>
-
+### [week 1](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%201)
+<br>
+1. Post-layout simulation for Inverter by using Align 
+<br>
+<br>
 2. Pre-layout simulation of FN
-
 <li> Schematic implementation
 <li> Test and simulation
 <li> calculation of the delay
