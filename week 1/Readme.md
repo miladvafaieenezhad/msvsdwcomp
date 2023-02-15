@@ -22,8 +22,7 @@ X3 VP A Y VP sky130_fd_pr__pfet_01v8 w=8.4 l=0.15
   
 ![Untitled](https://user-images.githubusercontent.com/38715276/218671182-25fe6265-819e-47d3-a12b-52b6194b547b.png)
 
-# Section 2: Simulation of FN in Xschem  
-
+# Section 2: Pre-layout simulation of FN 
 
 <li> FN is defined as:
 
@@ -31,11 +30,11 @@ X3 VP A Y VP sky130_fd_pr__pfet_01v8 w=8.4 l=0.15
 Y = [(B + D) . (A + C) + E.F]'
 ```
   
- <li> The schematic is like:
+ ## 1. The schematic
  
 ![Untitled](https://user-images.githubusercontent.com/38715276/218955648-f302a944-3e34-486d-a526-aaa98d1f50bd.png)
 
-and the gate under the test is like:
+## 2. The gate under test
 
 ![Untitled](https://user-images.githubusercontent.com/38715276/218956353-1249cbb6-a5b1-4f77-b04d-ad0c1a59fda8.png)
 
@@ -51,7 +50,7 @@ is for calculating the delay of the gate. <br>
 
 ![Untitled](https://user-images.githubusercontent.com/38715276/218958295-df28cc17-3fb9-4eb7-a87c-b672dc315586.png)
 
-and the delay equals 0.35ns:
+<li> The delay equals 0.35ns:
 
 ![Untitled](https://user-images.githubusercontent.com/38715276/218959207-1f8b855a-0f72-4dbe-9e3d-300f6b71d0a1.png)
 
