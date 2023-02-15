@@ -1,0 +1,60 @@
+
+Circuit: ** sch_path: /home/milad/.xschem/xschem_library/vsd/week1/function_pre-layout_xschem/fn_test.sch
+
+Scale set
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: vf: no DC value, transient time 0 value used
+Warning: ve: no DC value, transient time 0 value used
+Warning: vd: no DC value, transient time 0 value used
+Warning: vc: no DC value, transient time 0 value used
+Warning: vb: no DC value, transient time 0 value used
+Warning: va: no DC value, transient time 0 value used
+No. of Data Columns : 57  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vo                                         1.8
+ve                                           0
+x1.net2                                    1.8
+vdd                                        1.8
+vf                                           0
+vc                                           0
+x1.net1                                    1.8
+vd                                           0
+x1.net3                                    1.8
+va                                           0
+vb                                           0
+x1.net5                              0.0326989
+x1.net4                                 0.0327
+vdd#branch                        -5.64715e-12
+vf#branch                                    0
+ve#branch                                    0
+vd#branch                                    0
+vc#branch                                    0
+vb#branch                                    0
+va#branch                                    0
+
+
+No. of Data Rows : 3969
+
+No .measure possible in batch mode (-b) with -r rawfile set!
+Remove rawfile and use .print or .plot or
+select interactive mode (optionally with .control section) instead.
+
+elapsed time since last call: 123.981 seconds.
+
+Total elapsed time: 123.981 seconds.
+
+Total DRAM available = 2980.792969 MB.
+DRAM currently available = 66.781250 MB.
+Total ngspice program size = 130.997070 MB.
+Resident set size = 129.303711 MB.
+Shared ngspice pages = 2.013672 MB.
+Text (code) pages = 1.466797 MB.
+Stack = 0 bytes.
+Library pages = 127.348633 MB.
+
