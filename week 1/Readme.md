@@ -55,5 +55,5 @@ and the delay equals 0.35ns:
 
 ![Untitled](https://user-images.githubusercontent.com/38715276/218959207-1f8b855a-0f72-4dbe-9e3d-300f6b71d0a1.png)
 
-&#9734; the simulation folder can e found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%201/sim/3).
+&#9734; the simulation folder can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%201/sim/3).
  
