@@ -21,6 +21,8 @@ X3 VP A Y VP sky130_fd_pr__pfet_01v8 w=8.4 l=0.15
 <li> the result is:
   
 ![Untitled](https://user-images.githubusercontent.com/38715276/218671182-25fe6265-819e-47d3-a12b-52b6194b547b.png)
+  
+<hr>
 
 # Section 2: Pre-layout simulation of FN 
 
