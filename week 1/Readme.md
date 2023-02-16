@@ -271,7 +271,7 @@ C114 F 0 1.82fF
  
 ## 3. Post-layout simulation
 
-By using Xschem and [generated netlist](https://github.com/miladvafaieenezhad/msvsdwcomp/blob/main/week%201/Readme.md) the post-layout result is:
+By using Xschem and generated netlist the post-layout result is:
 
 ![post layout _align](https://user-images.githubusercontent.com/38715276/219298540-699921be-731b-4aff-bc9e-926655ae7ac8.png)
 
