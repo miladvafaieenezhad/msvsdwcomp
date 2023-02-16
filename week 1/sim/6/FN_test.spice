@@ -1,0 +1,25 @@
+** sch_path:
+*+ /home/milad/.xschem/xschem_library/VSD/week1/(6)function_post-layout_Xschem_Align/FN_test.sch
+**.subckt FN_test
+Va Va GND pulse 0 1.8 10ns 1ns 1ns 5ns 10ns
+Vb Vb GND pulse 0 1.8 10ns 2ns 2ns 10ns 20ns
+Vc Vc GND pulse 0 1.8 10ns 4ns 4ns 20ns 40ns
+Vd Vd GND pulse 0 1.8 10ns 8ns 8ns 40ns 80ns
+Ve Ve GND pulse 0 1.8 10ns 16ns 16ns 80ns 160ns
+Vf Vf GND pulse 0 1.8 10ns 32ns 32ns 160ns 320ns
+VDD VDD GND 1.8
+X1 Va Vb Vc Vd Ve Vf GND VDD Vo FN
+**** begin user architecture code
+ .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+
+.tran 0.5n 1u
+.measure tran delay  TRIG v(Va) TD=113n VAL=0.9 FALL=1  TARG v(Vo) TD=113n VAL=0.9 RISE=1
+.include ~/.xschem/xschem_library/VSD/week1/(6)function_post-layout_Xschem_Align/FN_Align_layout.spice
+.save all
+
+**** end user architecture code
+**.ends
+.GLOBAL VDD
+.GLOBAL GND
+.end

@@ -1,0 +1,143 @@
+* SPICE3 file created from MY_FUNCTION_0.ext - technology: sky130A
+
+.subckt FN A B C D E F VN VP Y
+X0 4 F VN VN sky130_fd_pr__nfet_01v8  w=0.42 l=0.15
+X1 VN F 4 VN sky130_fd_pr__nfet_01v8  w=0.42 l=0.15
+X2 5 D VN VN sky130_fd_pr__nfet_01v8  w=0.42 l=0.15
+X3 VN D 5 VN sky130_fd_pr__nfet_01v8  w=0.42 l=0.15
+X4 VP b 3 VP sky130_fd_pr__pfet_01v8  w=0.42 l=0.15
+X5 1 A VP VP sky130_fd_pr__pfet_01v8  w=0.42 l=0.15
+X6 VP A 1 VP sky130_fd_pr__pfet_01v8  w=0.42 l=0.15
+X7 3 b VP VP sky130_fd_pr__pfet_01v8  w=0.42 l=0.15
+X8 5 b VN VN sky130_fd_pr__nfet_01v8  w=0.42 l=0.15
+X9 VN b 5 VN sky130_fd_pr__nfet_01v8  w=0.42 l=0.15
+X10 2 D 3 VP sky130_fd_pr__pfet_01v8  w=0.42 l=0.15
+X11 3 D 2 VP sky130_fd_pr__pfet_01v8  w=0.42 l=0.15
+X12 2 C 1 VP sky130_fd_pr__pfet_01v8  w=0.42 l=0.15
+X13 1 C 2 VP sky130_fd_pr__pfet_01v8  w=0.42 l=0.15
+X14 Y E 4 VN sky130_fd_pr__nfet_01v8  w=0.42 l=0.15
+X15 4 E Y VN sky130_fd_pr__nfet_01v8  w=0.42 l=0.15
+X16 Y F 2 VP sky130_fd_pr__pfet_01v8  w=0.42 l=0.15
+X17 2 F Y VP sky130_fd_pr__pfet_01v8  w=0.42 l=0.15
+X18 Y c 5 VN sky130_fd_pr__nfet_01v8  w=0.42 l=0.15
+X19 5 c Y VN sky130_fd_pr__nfet_01v8  w=0.42 l=0.15
+X20 Y A 5 VN sky130_fd_pr__nfet_01v8  w=0.42 l=0.15
+X21 5 A Y VN sky130_fd_pr__nfet_01v8  w=0.42 l=0.15
+X22 Y E 2 VP sky130_fd_pr__pfet_01v8  w=0.42 l=0.15
+X23 2 E Y VP sky130_fd_pr__pfet_01v8  w=0.42 l=0.15
+C0 4 2 0.09fF
+C1 VP B 0.14fF
+C2 B C 0.00fF
+C3 3 D 0.02fF
+C4 VP 5 0.37fF
+C5 C 5 0.03fF
+C6 F A 0.32fF
+C7 E VN 0.01fF
+C8 1 4 0.00fF
+C9 2 c 0.00fF
+C10 D 4 0.01fF
+C11 E 2 0.03fF
+C12 VN 2 0.09fF
+C13 F b 0.42fF
+C14 F Y 0.08fF
+C15 1 c 0.01fF
+C16 E 1 0.00fF
+C17 VP 3 1.06fF
+C18 C 3 0.01fF
+C19 F 5 0.02fF
+C20 b A 0.33fF
+C21 A Y 0.12fF
+C22 E D 0.00fF
+C23 B A 0.11fF
+C24 1 VN 0.00fF
+C25 5 A 0.14fF
+C26 VN D 0.07fF
+C27 VP 4 0.05fF
+C28 1 2 0.78fF
+C29 D 2 0.03fF
+C30 b Y 0.00fF
+C31 B Y 0.01fF
+C32 5 b 0.08fF
+C33 5 Y 1.61fF
+C34 F 3 0.05fF
+C35 VP c 0.05fF
+C36 1 D 0.00fF
+C37 VP E 0.31fF
+C38 3 A 0.06fF
+C39 VP VN 1.05fF
+C40 F 4 0.09fF
+C41 VP 2 1.15fF
+C42 C 2 0.05fF
+C43 A 4 0.02fF
+C44 3 b 0.04fF
+C45 3 Y 0.30fF
+C46 B 3 0.00fF
+C47 VP 1 0.91fF
+C48 3 5 0.44fF
+C49 C 1 0.04fF
+C50 F E 0.64fF
+C51 VP D 0.29fF
+C52 C D 0.01fF
+C53 A c 0.00fF
+C54 b 4 0.03fF
+C55 F VN 0.04fF
+C56 4 Y 0.61fF
+C57 E A 0.08fF
+C58 B 4 0.07fF
+C59 5 4 0.20fF
+C60 VN A 0.06fF
+C61 F 2 0.13fF
+C62 Y c 0.05fF
+C63 A 2 0.14fF
+C64 E b 0.29fF
+C65 E Y 0.06fF
+C66 B E 0.27fF
+C67 F 1 0.02fF
+C68 5 c 0.03fF
+C69 VN b 0.14fF
+C70 E 5 0.01fF
+C71 F D 0.00fF
+C72 VN Y 0.06fF
+C73 VP C 0.44fF
+C74 B VN 0.62fF
+C75 1 A 0.06fF
+C76 5 VN 0.47fF
+C77 A D 0.08fF
+C78 b 2 0.02fF
+C79 3 4 0.00fF
+C80 Y 2 1.63fF
+C81 B 2 0.03fF
+C82 5 2 0.09fF
+C83 1 b 0.01fF
+C84 1 Y 0.50fF
+C85 b D 0.01fF
+C86 D Y 0.01fF
+C87 1 5 0.10fF
+C88 E 3 0.01fF
+C89 B D 0.07fF
+C90 VP F 0.72fF
+C91 F C 0.00fF
+C92 5 D 0.10fF
+C93 3 VN 0.10fF
+C94 VP A 0.83fF
+C95 C A 0.07fF
+C96 E 4 0.02fF
+C97 3 2 0.84fF
+C98 VN 4 0.08fF
+C99 VP b 0.31fF
+C100 3 1 0.17fF
+C101 VP Y 0.35fF
+C102 Y 0 0.29fF
+C103 2 0 0.26fF **FLOATING
+C104 VP 0 13.52fF
+C105 c 0 0.85fF **FLOATING
+C106 E 0 1.19fF
+C107 3 0 0.13fF **FLOATING
+C108 5 0 1.91fF **FLOATING
+C109 b 0 2.22fF **FLOATING
+C110 1 0 0.30fF **FLOATING
+C111 A 0 0.49fF
+C112 D 0 0.65fF
+C113 4 0 0.89fF **FLOATING
+C114 F 0 1.82fF
+.ends
