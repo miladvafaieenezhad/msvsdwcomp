@@ -38,3 +38,10 @@
 <li> Schematic implementation
 <li> Test and simulation
 <li> calculation of the delay
+<br>
+<br>
+3. Post-layout simulation of FN
+<li> Layout implementation with Align
+<li> Extracting parasitic capicitances using magic
+<li> Post-layout simulation
+<li> comparison between pre-layout and post-layout
