@@ -54,7 +54,7 @@ Y = [(B + D) . (A + C) + E.F]'
 + TARG v(Vo) TD=113n VAL=0.9 RISE=1
 ```
 is for calculating the delay of the gate. <br>
-<li> The output is as:
+<li> The inputs and output signal is as:
 
 ![Untitled](https://user-images.githubusercontent.com/38715276/218958295-df28cc17-3fb9-4eb7-a87c-b672dc315586.png)
 
@@ -275,7 +275,7 @@ By using Xschem and generated netlist the post-layout result is:
 
 ![post layout _align](https://user-images.githubusercontent.com/38715276/219298540-699921be-731b-4aff-bc9e-926655ae7ac8.png)
 
-As shown, the pre-layout and post-layout output are alike but what about details. This needs to be examine by comparing their delay.
+As shown, the pre-layout and post-layout output are alike but what about details. This needs to be examined by comparing their delay.
 
 The delay of post-layout simulation:
 ![Untitled](https://user-images.githubusercontent.com/38715276/219301459-4efa8c91-3d2a-4d30-8c99-fea403d84f74.png)
