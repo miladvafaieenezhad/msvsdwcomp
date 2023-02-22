@@ -1,6 +1,9 @@
 # Section 1: OpenFASoC installation
 Before installing OpenFASoC, some dependendies including Magic, Netgen, Klayout, Yosys and Openroad must be installed. <br>
-To install Magic and Netgen see [here](https://github.com/miladvafaieenezhad/msvsdwcomp/blob/main/week%200/Readme.md).
+
+## Installing dependencies
+
+<li> To install Magic and Netgen see [here](https://github.com/miladvafaieenezhad/msvsdwcomp/blob/main/week%200/Readme.md).
 
 ### 1. Openroad installation:<br>
 
