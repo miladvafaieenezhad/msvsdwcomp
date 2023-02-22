@@ -76,6 +76,6 @@ yosys>
 [webpage 1](https://openfasoc.readthedocs.io/en/latest/getting-started.html#installation) <br>
     
     
-# Section 2: Runnind a sample using OpenFASoC
+# Section 2: Running a sample using OpenFASoC
     
 The video for this section can be found [here](https://onedrive.live.com/?authkey=%21ANgZedkxG5nArLI&id=E0E9B5EEF85B162E%2198904&cid=E0E9B5EEF85B162E&parId=root&parQt=sharedby&parCid=60A96227DD109893&o=OneUp) and the repository [here](https://github.com/rakshit-23/OpenFASOC).
