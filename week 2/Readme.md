@@ -1,4 +1,8 @@
 # Section 1: OpenFASoC installation
+
+OpenFASoC: Fully Open-Source Autonomous SoC Synthesis using Customizable Cell-Based Synthesizable Analog Circuits<br>
+OpenFASOC is focused on open-source automate analog generation from user specification to GDSII with fully open-sourced tools.
+
 Before installing OpenFASoC, some dependendies including Magic, Netgen, Klayout, Yosys and Openroad must be installed. <br>
 
 ## Dependencies installation
