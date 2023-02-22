@@ -1,7 +1,7 @@
 
 # Section 1: Tools installation
 
-&#9733; there are inserted some useful webpages to install tools other than those introduced in [Task_week0](https://github.com/miladvafaieenezhad/msvsdwcomp/blob/main/week%200/Task_week0.md).
+&#9733; Some useful webpages to install tools are suggested other than those introduced in [Task_week0](https://github.com/miladvafaieenezhad/msvsdwcomp/blob/main/week%200/Task_week0.md).
 
 ### 1. Magic installation:<br>
 
