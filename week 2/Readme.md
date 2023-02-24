@@ -1,9 +1,8 @@
 # Section 1: OpenFASoC installation
 
-OpenFASoC: Fully Open-Source Autonomous SoC Synthesis using Customizable Cell-Based Synthesizable Analog Circuits<br>
-OpenFASOC is focused on open-source automate analog generation from user specification to GDSII with fully open-sourced tools.
-
-Before installing OpenFASoC, some dependendies including Magic, Netgen, Klayout, Yosys and Openroad must be installed. <br>
+<li> OpenFASoC: Fully Open-Source Autonomous SoC Synthesis using Customizable Cell-Based Synthesizable Analog Circuits<br>
+<br>
+OpenFASOC is focused on open-source automate analog generation from user specification to GDSII with fully open-sourced tools. Before installing OpenFASoC, some dependendies including Magic, Netgen, Klayout, Yosys and Openroad must be installed. <br>
 
 ## Dependencies installation
 
@@ -84,11 +83,11 @@ yosys>
     
 The video for this section can be found [here](https://onedrive.live.com/?authkey=%21ANgZedkxG5nArLI&id=E0E9B5EEF85B162E%2198904&cid=E0E9B5EEF85B162E&parId=root&parQt=sharedby&parCid=60A96227DD109893&o=OneUp) and the repository [here](https://github.com/rakshit-23/OpenFASOC).
 
-### Rerun the Temperature Sensor Generator in OpenFASoC
+## Rerun the Temperature Sensor Generator in OpenFASoC
+	  
+### Circuit structure
 
-The paper related to Temperature Sensor Generator can be found [here](https://ieeexplore.ieee.org/document/9816083/authors#authors).
-
-The circuit consists of a ring oscillator whose frequency is controlled by the voltage drop over a MOSFET operating in subthreshold regime, where its dependency on temperature is exponential
+The paper related to Temperature Sensor Generator can be found [here](https://ieeexplore.ieee.org/document/9816083/authors#authors). The circuit consists of a ring oscillator whose frequency is controlled by the voltage drop over a MOSFET operating in subthreshold regime, where its dependency on temperature is exponential. The image below shows the circuit.
 
 ![Untitled](https://user-images.githubusercontent.com/38715276/221111085-9e9b414a-aa25-4086-a004-b180923c0d78.png)
 
@@ -106,7 +105,9 @@ More information about sensor can be found [here](https://openfasoc.readthedocs.
 
 The <code>.gds</code>  files exist in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/blocks/sky130hd/gds </code> 
 
-By using <code>make sky130hd_temp_verilog</code> in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen</code> the verilog code based on <code>.jason</code> file will get generated. In this file temperature is being varied from -20 C to 100 C. In this file the parameter toward which the circuit must be optimized is selected which is "error" here. Based on the operating temperature range, generator calculates the number of header and inverters to minimize the error. 
+### Verilog Generation
+	
+By using <code>make sky130hd_temp_verilog</code> in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen</code> the verilog code based on <code>.jason</code> file will get generated. In this file temperature is being varied from -20 C to 100 C, and the parameter toward which the circuit must be optimized is selected which is "error" here. Based on the operating temperature range, generator calculates the number of header and inverters to minimize the error. 
 
 <li> test.jason:
 
@@ -147,29 +148,21 @@ HEADER:3
 Exiting tool....
 ```
 
-the opmization is done based on "modelfile.csv" exists in  <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/models</code> 
+The opmization is done based on "modelfile.csv" exists in  <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/models</code> 
 
 The model file is like:
 
 ![Screenshot from 2023-02-24 03-45-01](https://user-images.githubusercontent.com/38715276/221133591-8cee3ae5-248a-4c6c-8707-464cc90da7e9.png)
 
-After running the `make sky130hd_temp_verilog` command the verilog files of counter.v, TEMP_ANALOG_hv.nl.v, TEMP_ANALOG_lv.nl.v are created in the <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/src</code> folder.
+After running the `make sky130hd_temp_verilog` command, the verilog files of counter.v, TEMP_ANALOG_hv.nl.v, TEMP_ANALOG_lv.nl.v are created in the <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/src</code> folder.
 	
 
 ### Synthesis
 
 for completeing the process like floorplan, routing, placement and the like, OpenRoad Flow is used.	
-The OpenROAD Flow starts with a flow configuration file (config.mk) in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/flow/design/sky130hd</code>, the chosen platform (sky130hd, for example) and the Verilog files generated from the previous part in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/flow/design/src</code>.
-
-From them, synthesis is run using Yosys to find the appropriate circuit implementation from the available cells in the platform.
+The OpenROAD Flow starts with a flow configuration file (config.mk) in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/flow/design/sky130hd</code>, the chosen platform (sky130hd, for example) and the Verilog files generated from the previous part in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/flow/design/src</code>. From them, synthesis is run using Yosys to find the appropriate circuit implementation from the available cells in the platform. To complete the flow, run <code>make sky130hd_temp</code>. The result will be in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/flow/results/sky130hd</code>.
 	
-To complete the flow, run <code>make sky130hd_temp</code>
-	
-The result will be in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/flow/results/sky130hd</code>
-	
-For debugging purposes, it is also possible to generate only part of the flow, visualize the results in OpenROAD GUI or generate DEF files of all intermediary results. For doing so, the Makefile in temp-sense-gen/flow/ contains special targets.
-
-After running make sky130hd_temp in temp-sense-gen/ once, cd into the flow/ directory and use one of the commands from the following table:
+For debugging purposes, it is also possible to generate only part of the flow, visualize the results in OpenROAD GUI or generate DEF files of all intermediary results. For doing so, the Makefile in temp-sense-gen/flow/ contains special targets. After running make sky130hd_temp in temp-sense-gen/ once, cd into the flow/ directory and use one of the commands from the following table:
 
 |Command|Function|
 |---|---|
