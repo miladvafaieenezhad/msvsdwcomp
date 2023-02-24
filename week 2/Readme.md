@@ -163,4 +163,24 @@ The OpenROAD Flow starts with a flow configuration file (config.mk) in <code>/..
 
 From them, synthesis is run using Yosys to find the appropriate circuit implementation from the available cells in the platform.
 	
-to complete the flow, run <code>make sky130hd_temp</code>
+To complete the flow, run <code>make sky130hd_temp</code>
+	
+The resultwill ne in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/flow/results/sky130hd</code>
+	
+For debugging purposes, it’s also possible to generate only part of the flow, visualize the results in OpenROAD GUI or generate DEF files of all intermediary results. For doing so, the Makefile in temp-sense-gen/flow/ contains special targets.
+
+After running make sky130hd_temp in temp-sense-gen/ once, cd into the flow/ directory and use one of the commands from the following table:
+
+|Command|Function|
+|---|---|
+|make synth   | Stops the flow after synthesis|
+|make floorplan |  Stops the flow after floorplan|
+|make place   |   Stops the flow after placement|
+|make route   |  Stops the flow after routing|
+|make finish  |  Runs the whole RTL-to-GDS flow|
+|make gui_floorplan   |  Opens the design after floorplan in OpenROAD GUI|
+|make gui_place  |   Opens the design after placement in OpenROAD GUI|
+|make gui_route  |  Opens the design after routing in OpenROAD GUI|
+|make gui_final   |  Opens the finished design in OpenROAD |
+|make all_defs  |   Creates DEF files in flow/results/ of every step in the flow|
+|make print-ENV_VARIABLE_NAME   |  Prints the value of an env variable recognized by OpenROAD Flow|
