@@ -86,19 +86,70 @@ The video for this section can be found [here](https://onedrive.live.com/?authke
 
 ### Rerun the Temperature Sensor Generator in OpenFASoC
 
-The paoer related to Temperature Sensor Generator can be found [here](https://ieeexplore.ieee.org/document/9816083/authors#authors).
+The paper related to Temperature Sensor Generator can be found [here](https://ieeexplore.ieee.org/document/9816083/authors#authors).
 
-It consists of a ring oscillator whose frequency is controlled by the voltage drop over a MOSFET operating in subthreshold regime, where its dependency on temperature is exponential
+The circuit consists of a ring oscillator whose frequency is controlled by the voltage drop over a MOSFET operating in subthreshold regime, where its dependency on temperature is exponential
 
 ![Untitled](https://user-images.githubusercontent.com/38715276/221111085-9e9b414a-aa25-4086-a004-b180923c0d78.png)
 
 The physical implementation of the analog blocks in the circuit is done using two manually designed standard cells:
 
-<li> HEADER cell, containing the transistors in subthreshold operation;
+<li> HEADER cell, containing the transistors in subthreshold operation:
 
-<li> SLC cell, containing the Split-Control Level Converter.
+![Screenshot from 2023-02-24 02-35-10](https://user-images.githubusercontent.com/38715276/221120288-f5a96770-e7be-4199-b415-41b5bbdf1933.png)
+
+<li> SLC cell, containing the Split-Control Level Converter:
+
+![Screenshot from 2023-02-24 02-42-22](https://user-images.githubusercontent.com/38715276/221121190-ecf0b196-319c-4f1d-8b7d-c3bf0deb793b.png)
 
 More information about sensor can be found [here](https://openfasoc.readthedocs.io/en/latest/flow-tempsense.html).
 
+The <code>.gds</code>  files exist in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/blocks/sky130hd/gds </code> 
 
+By using <code>make sky130hd_temp_verilog</code> in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen</code> the verilog code based on <code>.jason</code> file will get generated. In this file temperature is being varied from -20 C to 100 C. In this file the parameter toward which the circuit must be optimized is selected which is "error" here. Based on the operating temperature range, generator calculates the number of header and inverters to minimize the error. 
+
+<li> test.jason:
+
+```
+{
+    "module_name": "tempsenseInst_error",
+    "generator": "temp-sense-gen",
+    "specifications": {
+    	"temperature": { "min": -20, "max": 100 },
+    	"power": "",
+    	"error": "",
+    	"area": "",
+    	"optimization":"error",
+    	"model" :"modelfile.csv"
+	}
+}
+```
+
+By runnung <code>make sky130hd_temp_verilog</code>, the result on Terminal is:
+
+```
+File present : SEARCH already done
+---check_search_done---- get old research results :    20 2.44027697469062e-07 -0.311720262269828 6 3 Tempmin:-20,Tempmax:100,Optimization:error,Model:tools/..//models/modelfile.csv,Delta_1st_pass:10
+Error :  -0.311720262269828
+Inv :  6
+Header :  3
+History :  Tempmin:-20,Tempmax:100,Optimization:error,Model:tools/..//models/modelfile.csv,Delta_1st_pass:10
+INV:6
+HEADER:3
+
+#----------------------------------------------------------------------
+# Verilog Generation
+#----------------------------------------------------------------------
+#----------------------------------------------------------------------
+# Verilog Generated
+#----------------------------------------------------------------------
+
+Exiting tool....
+```
+
+the opmization is done based on "modelfile.csv" exists in  <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/models</code> 
+
+The model file is like:
+
+![Screenshot from 2023-02-24 03-45-01](https://user-images.githubusercontent.com/38715276/221133591-8cee3ae5-248a-4c6c-8707-464cc90da7e9.png)
 
