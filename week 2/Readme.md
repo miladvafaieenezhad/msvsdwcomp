@@ -83,3 +83,22 @@ yosys>
 # Section 2: Running a sample using OpenFASoC
     
 The video for this section can be found [here](https://onedrive.live.com/?authkey=%21ANgZedkxG5nArLI&id=E0E9B5EEF85B162E%2198904&cid=E0E9B5EEF85B162E&parId=root&parQt=sharedby&parCid=60A96227DD109893&o=OneUp) and the repository [here](https://github.com/rakshit-23/OpenFASOC).
+
+### Rerun the Temperature Sensor Generator in OpenFASoC
+
+The paoer related to Temperature Sensor Generator can be found [here](https://ieeexplore.ieee.org/document/9816083/authors#authors).
+
+It consists of a ring oscillator whose frequency is controlled by the voltage drop over a MOSFET operating in subthreshold regime, where its dependency on temperature is exponential
+
+![Untitled](https://user-images.githubusercontent.com/38715276/221111085-9e9b414a-aa25-4086-a004-b180923c0d78.png)
+
+The physical implementation of the analog blocks in the circuit is done using two manually designed standard cells:
+
+<li> HEADER cell, containing the transistors in subthreshold operation;
+
+<li> SLC cell, containing the Split-Control Level Converter.
+
+More information about sensor can be found [here](https://openfasoc.readthedocs.io/en/latest/flow-tempsense.html).
+
+
+
