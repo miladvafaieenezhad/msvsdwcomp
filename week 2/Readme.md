@@ -165,9 +165,9 @@ From them, synthesis is run using Yosys to find the appropriate circuit implemen
 	
 To complete the flow, run <code>make sky130hd_temp</code>
 	
-The resultwill ne in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/flow/results/sky130hd</code>
+The result will be in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/flow/results/sky130hd</code>
 	
-For debugging purposes, it’s also possible to generate only part of the flow, visualize the results in OpenROAD GUI or generate DEF files of all intermediary results. For doing so, the Makefile in temp-sense-gen/flow/ contains special targets.
+For debugging purposes, it is also possible to generate only part of the flow, visualize the results in OpenROAD GUI or generate DEF files of all intermediary results. For doing so, the Makefile in temp-sense-gen/flow/ contains special targets.
 
 After running make sky130hd_temp in temp-sense-gen/ once, cd into the flow/ directory and use one of the commands from the following table:
 
@@ -184,3 +184,9 @@ After running make sky130hd_temp in temp-sense-gen/ once, cd into the flow/ dire
 |make gui_final   |  Opens the finished design in OpenROAD |
 |make all_defs  |   Creates DEF files in flow/results/ of every step in the flow|
 |make print-ENV_VARIABLE_NAME   |  Prints the value of an env variable recognized by OpenROAD Flow|
+	
+	
+<li> The final result is:
+	
+![kjkj](https://user-images.githubusercontent.com/38715276/221177042-c3fe9d6f-726d-4d4c-bc9e-72d8e8983e72.png)
+
