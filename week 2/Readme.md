@@ -162,3 +162,5 @@ for completeing the process like floorplan, routing, placement and the like, Ope
 The OpenROAD Flow starts with a flow configuration file (config.mk) in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/flow/design/sky130hd</code>, the chosen platform (sky130hd, for example) and the Verilog files generated from the previous part in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/flow/design/src</code>.
 
 From them, synthesis is run using Yosys to find the appropriate circuit implementation from the available cells in the platform.
+	
+to complete the flow, run <code>make sky130hd_temp</code>
