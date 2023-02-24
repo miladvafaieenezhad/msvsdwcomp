@@ -153,3 +153,12 @@ The model file is like:
 
 ![Screenshot from 2023-02-24 03-45-01](https://user-images.githubusercontent.com/38715276/221133591-8cee3ae5-248a-4c6c-8707-464cc90da7e9.png)
 
+After running the `make sky130hd_temp_verilog` command the verilog files of counter.v, TEMP_ANALOG_hv.nl.v, TEMP_ANALOG_lv.nl.v are created in the <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/src</code> folder.
+	
+
+### Synthesis
+
+for completeing the process like floorplan, routing, placement and the like, OpenRoad Flow is used.	
+The OpenROAD Flow starts with a flow configuration file (config.mk) in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/flow/design/sky130hd</code>, the chosen platform (sky130hd, for example) and the Verilog files generated from the previous part in <code>/.../openfasoc/openfasoc/generators/temp-sense-gen/flow/design/src</code>.
+
+From them, synthesis is run using Yosys to find the appropriate circuit implementation from the available cells in the platform.
