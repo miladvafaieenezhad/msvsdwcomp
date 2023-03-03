@@ -1,0 +1,46 @@
+** sch_path: /home/milad/.xschem/xschem_library/VSD/week3/(0)pre-layout-ring/RO_test.sch
+**.subckt RO_test
+Vdd VDD GND 1.8
+x1 VA VDD VA GND 3_stage_RO
+**** begin user architecture code
+
+.tran 0.01n 10n
+.IC v(VA)=1.8
+.measure tran T  TRIG v(Va) TD=5n VAL=0.9 FALL=1  TARG v(Va) TD=5n VAL=0.9 FALL=2
+.save all
+
+ .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  VSD/week3/(0)pre-layout-ring/3_stage_RO.sym # of pins=4
+** sym_path: /home/milad/.xschem/xschem_library/VSD/week3/(0)pre-layout-ring/3_stage_RO.sym
+** sch_path: /home/milad/.xschem/xschem_library/VSD/week3/(0)pre-layout-ring/3_stage_RO.sch
+.subckt 3_stage_RO  A VP Y VN
+*.ipin A
+*.opin Y
+*.iopin VN
+*.iopin VP
+XM1 net1 A VN VN sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=2 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM2 net1 A VP VP sky130_fd_pr__pfet_01v8 L=0.15 W=0.42 nf=2 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM3 net2 net1 VN VN sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=2 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM4 net2 net1 VP VP sky130_fd_pr__pfet_01v8 L=0.15 W=0.42 nf=2 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM5 Y net2 VN VN sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=2 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM6 Y net2 VP VP sky130_fd_pr__pfet_01v8 L=0.15 W=0.42 nf=2 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+.GLOBAL VDD
+.GLOBAL GND
+.end
