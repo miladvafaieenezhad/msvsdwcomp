@@ -18,3 +18,5 @@ $$
     <em>Fig.1. A-three-stage-ring-oscillator.</em>
 </p>
 
+# Section 2: Pre_Layout Simulation of a 3-Stage-Ring-Oscillator
+
