@@ -2,4 +2,4 @@
 ## week 3
 1. Create a ring oscillator and perform pre-layout using xschem or ngspice  <br>
 2. Ring oscillator Post-layout characterization
-3. utilising the ring oscillator in OpenRoad.
+3. Utilising the ring oscillator in OpenRoad.
