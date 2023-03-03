@@ -1,0 +1,48 @@
+
+Circuit: ** sch_path: /home/milad/.xschem/xschem_library/vsd/week3/(0)pre-layout-ring/ro_test.sch
+
+Scale set
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: Eta0 = -0.377401 is negative.
+Warning: A2 = -0.597908 is too small. Set to 0.01.
+Warning: Eta0 = -0.00341405 is negative.
+Warning: Eta0 = -0.377401 is negative.
+Warning: A2 = -0.597908 is too small. Set to 0.01.
+Warning: Eta0 = -0.00341405 is negative.
+Warning: Eta0 = -0.377401 is negative.
+Warning: A2 = -0.597908 is too small. Set to 0.01.
+Warning: Eta0 = -0.00341405 is negative.
+No. of Data Columns : 24  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        1.8
+x1.net1                            1.79398e-08
+va                                         1.8
+x1.net2                                    1.8
+vdd#branch                        -5.79137e-12
+
+
+No. of Data Rows : 1008
+
+No .measure possible in batch mode (-b) with -r rawfile set!
+Remove rawfile and use .print or .plot or
+select interactive mode (optionally with .control section) instead.
+
+elapsed time since last call: 115.553 seconds.
+
+Total elapsed time: 115.553 seconds.
+
+Total DRAM available = 2932.796875 MB.
+DRAM currently available = 132.136719 MB.
+Total ngspice program size = 130.996094 MB.
+Resident set size = 129.165039 MB.
+Shared ngspice pages = 1.875977 MB.
+Text (code) pages = 1.466797 MB.
+Stack = 0 bytes.
+Library pages = 127.347656 MB.
+
