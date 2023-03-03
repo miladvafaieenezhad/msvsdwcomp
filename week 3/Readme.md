@@ -1,6 +1,4 @@
-# Section 1: Pre-Layout Simulation of a 3-Stage-Ring-Oscillator
-
-## Basics of Ring Oscillator
+# Section 1: Basics of Ring Oscillator
 
 A Ring Oscillator(RO), shown in fig.1, is a device composed of an odd number of NOT gates in a ring, whose output oscillates between two voltage levels, representing true and false. The NOT gates, or inverters, are attached in a chain and the output of the last inverter is fed back into the first. If t represents the time delay for a single inverter and n represents the number of inverters in the inverter chain, then the frequency of oscillation is as (1).
 
