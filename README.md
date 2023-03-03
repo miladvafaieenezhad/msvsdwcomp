@@ -2,7 +2,7 @@
 <li> This repository is related to a 10-week program for taping out a chip using SKY130 technology.<br>
 <li> In each week, participants need to do some tasks and meet requirements for being eligible to continue.<br>
 <li> Some tasks could be covered in weeks.<br>
-<li> For each week, a directory can be found containing all tasks and simulations I have done. <br>
+<li> For each week, a directory with all tasks and simulations I have done can be found. <br>
   
  ## What I have done in each week is summarized below:<br>
   
