@@ -115,7 +115,7 @@ C24 Y VN 0.80fF
 ```
 
 
-the oscillation of RO with this capacitaces is like fig.5.
+the oscillation of RO with paracitics capacitances is shown in fig.5.
 <p  align="center">
  <img src=""   style="width:70%" />
     <br>
