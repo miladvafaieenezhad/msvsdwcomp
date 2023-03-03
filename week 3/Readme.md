@@ -40,7 +40,7 @@ the output is shown in fig.3
 </p>
 <br>
 <br>
-where the period as shown in fig.4 with a red square around that is 50ns.
+where the period as shown in fig.4 with a red square around that is 0.5ns.
 <p  align="center">
  <img src="https://user-images.githubusercontent.com/38715276/222733279-c96b7f2a-d672-4f5e-b65f-3a6e4d4b2182.png"   style="width:70%" />
     <br>
@@ -122,5 +122,18 @@ the oscillation of RO with paracitics capacitances is shown in fig.5.
     <em>Fig.5. Post-layout output of RO.</em>
 </p>
 
-where the period as shown in fig.6 with a red square around that is 50ns.
+where the period as shown in fig.6 with a red square around that is 2.2ns.
 
+<p  align="center">
+ <img src=""   style="width:70%" />
+    <br>
+    <em>Fig.6. The period calculation for post-layout simulation of RO.</em>
+</p>
+
+# Section 4: Comparison Between Post_Layout and Pre-layout
+
+|      |  Pre-layout | Post-layout |
+| --- | --- | --- |
+| Period | &nbsp;&nbsp;&nbsp;  0.5ns | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   2.2ns |
+
+From table above, the role of parasitic capacitances on period of RO is obvious.
