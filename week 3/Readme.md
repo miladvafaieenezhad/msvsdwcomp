@@ -20,3 +20,21 @@ $$
 
 # Section 2: Pre_Layout Simulation of a 3-Stage-Ring-Oscillator
 
+Fig.2.(a) shows the circuit implemented in the Xschem and fig.2.(b) shows the circuit under test. 
+
+<p  align="center">
+ <img src="https://user-images.githubusercontent.com/38715276/222711559-47aefa18-ed44-43bc-a190-b3c45e106b40.png"  style="height:250px" style="width:40%" />
+ &nbsp; &nbsp; &nbsp; &nbsp;
+ <img src="https://user-images.githubusercontent.com/38715276/222712195-4539b398-a9f3-4bbe-824b-6a5bb5f33225.png"  style="height:250px" style="width:40%" />
+    <br>
+    <em>Fig.2.(a) Ring oscillator schematic, (b) Ring Oscillator under test.</em>
+</p>
+<br>
+
+the output is shown in fig.3.
+<p  align="center">
+ <img src="https://user-images.githubusercontent.com/38715276/222729541-20c151b9-a71c-4704-9054-2fbab904907c.png"   style="width:70%" />
+    <br>
+    <em>Fig.3. Ring oscillator output.</em>
+</p>
+
