@@ -61,4 +61,24 @@
 <li> Verilog generation
 <li> Synthesis
 <hr>
+
+### [week 3](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%203)
+<br>
+1. Basics of ring oscillator
+<br>
+<br>
+2. Pre-layout simulation of a ring oscillator
+<li> Schematic implementation
+<li> Test and simulation
+<li> calculation of the period
+<br>
+<br>
+3. Post-layout simulation of a ring oscillator
+<li> Layout implementation with Align
+<li> Extracting parasitic capicitances using magic
+<li> Post-layout simulation
+<br>
+<br>
+4. comparison between pre-layout and post-layout
+<hr>
   
