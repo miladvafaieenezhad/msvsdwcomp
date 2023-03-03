@@ -46,3 +46,6 @@ where the period as shown in fig.4 with a red square around that is 50ns.
     <br>
     <em>Fig.3. period calculation for pre-layout simulation of RO.</em>
 </p>
+
+# Section 3: Post_Layout Simulation of a 3-Stage-Ring-Oscillator
+
