@@ -20,8 +20,8 @@ $$
 
 # Section 2: Pre_Layout Simulation of a 3-Stage-Ring-Oscillator
 
-Fig.2.(a) shows the circuit implemented in the Xschem and fig.2.(b) shows the circuit under test. 
 
+Fig.2.(a) shows the circuit implemented in the Xschem and fig.2.(b) shows the circuit under test. 
 <p  align="center">
  <img src="https://user-images.githubusercontent.com/38715276/222711559-47aefa18-ed44-43bc-a190-b3c45e106b40.png"  style="height:250px" style="width:40%" />
  &nbsp; &nbsp; &nbsp; &nbsp;
@@ -31,10 +31,18 @@ Fig.2.(a) shows the circuit implemented in the Xschem and fig.2.(b) shows the ci
 </p>
 <br>
 
-the output is shown in fig.3.
+
+the output is shown in fig.3
 <p  align="center">
  <img src="https://user-images.githubusercontent.com/38715276/222729541-20c151b9-a71c-4704-9054-2fbab904907c.png"   style="width:70%" />
     <br>
     <em>Fig.3. Ring oscillator output.</em>
 </p>
-
+<br>
+<br>
+where the period as shown in fig.4 with a red square around that is 50ns.
+<p  align="center">
+ <img src="https://user-images.githubusercontent.com/38715276/222733279-c96b7f2a-d672-4f5e-b65f-3a6e4d4b2182.png"   style="width:70%" />
+    <br>
+    <em>Fig.3. period calculation for pre-layout simulation of RO.</em>
+</p>
