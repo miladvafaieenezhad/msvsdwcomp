@@ -45,7 +45,8 @@
 <li> Extracting parasitic capicitances using magic
 <li> Post-layout simulation
 <li> comparison between pre-layout and post-layout
-
+<hr>
+  
 ### [week 2](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%202)
 <br>
 1. OpenFASoC installation
@@ -59,3 +60,5 @@
 <li> Circuit structure
 <li> Verilog generation
 <li> Synthesis
+<hr>
+  
