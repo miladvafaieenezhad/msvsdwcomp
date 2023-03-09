@@ -4,7 +4,7 @@ An analog-to-digital converter (ADC, A/D or A-to-D) is an electronic integrated 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/38715276/224112135-07998ed8-ec7b-44ab-8c4e-daea9c20553e.png"  style="width:50%"/>
     <br>
-    <em>Fig.1. conceptual model of ADC.</em>
+    <em>Fig.1. Conceptual model of ADC.</em>
 </p>
 
 # Section 2: 1-Bit ADC
@@ -15,7 +15,7 @@ The reference voltage, VREF is compared against the input voltage, VIN applied t
 <p align="center">
  <img src=""  style="width:50%"/>
     <br>
-    <em>Fig.2. an 1-bit ADC.</em>
+    <em>Fig.2. An 1-bit ADC.</em>
 </p>
 
 in which the opamp structure is shown in fig.
@@ -23,9 +23,30 @@ in which the opamp structure is shown in fig.
 <p align="center">
  <img src=""  style="width:50%"/>
     <br>
-    <em>Fig.3.  A simple opamp.</em>
+    <em>Fig.3. A simple opamp.</em>
 </p>
 
 
 # Section 3: Pre-Layout Simulation of 1-Bit ADC
-The schematic of 
+The schematic of pre-layout simulation in Xschem in shwon in fig.4.
+<p align="center">
+ <img src=""  style="width:50%"/>
+    <br>
+    <em>Fig.4. The schematic pre-layout simulation in Xschem.</em>
+</p>
+
+The input and outout of 1-bit ADC is depicted in fig.5.
+
+<p align="center">
+ <img src=""  style="width:50%"/>
+    <br>
+    <em>Fig.5. The input and outout of 1-bit ADC.</em>
+</p>
+
+The delay of pre-layout implementation equals 0.9ns as illustrated in fig.6.
+
+<p align="center">
+ <img src=""  style="width:50%"/>
+    <br>
+    <em>Fig.6. The delay of pre-layout simulation.</em>
+</p>
