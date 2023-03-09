@@ -2,7 +2,7 @@
 An analog-to-digital converter (ADC, A/D or A-to-D) is an electronic integrated circuit that converts a continuous quantity to a discrete time digital number. An ADC may also provide an isolated measurement. The reverse operation is performed by a digital-to-analog converter (DAC). The conceptual model of ADC is shown in fig.1.
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/38715276/224112135-07998ed8-ec7b-44ab-8c4e-daea9c20553e.png"  style="width:50%"/>
+ <img src="https://user-images.githubusercontent.com/38715276/224112135-07998ed8-ec7b-44ab-8c4e-daea9c20553e.png"  style="width:30%"/>
     <br>
     <em>Fig.1. Conceptual model of ADC.</em>
 </p>
@@ -18,7 +18,7 @@ The reference voltage, VREF is compared against the input voltage, VIN applied t
     <em>Fig.2. An 1-bit ADC.</em>
 </p>
 
-in which the opamp structure is shown in fig.
+in which the opamp structure is shown in fig.3.
 
 <p align="center">
  <img src=""  style="width:50%"/>
@@ -46,7 +46,7 @@ The input and outout of 1-bit ADC is depicted in fig.5.
 The delay of pre-layout implementation equals 0.9ns as illustrated in fig.6.
 
 <p align="center">
- <img src=""  style="width:50%"/>
+ <img src="https://user-images.githubusercontent.com/38715276/224167391-46434ba2-b485-4148-a910-e9da954e0308.png"  style="width:50%"/>
     <br>
     <em>Fig.6. The delay of pre-layout simulation.</em>
 </p>
@@ -74,7 +74,7 @@ After importing .gds file into Magic and [extraction of parasitic capacitances](
 for which the delay equals 19ns as is illustrated in fig.9.
 
  <p align="center">
- <img src=""  style="width:50%"/>
+ <img src="https://user-images.githubusercontent.com/38715276/224168577-7702ae3f-d317-49ca-8d19-a4176f79ca70.png"  style="width:50%"/>
     <br>
     <em>Fig.9. The delay of post-layout simulation.</em>
 </p>
