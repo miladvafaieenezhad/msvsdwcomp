@@ -13,7 +13,7 @@ An analogue comparator such as the LM339N which has two analogue inputs, one pos
 The reference voltage, VREF is compared against the input voltage, VIN applied to the other input. For an LM339 comparator, if the input voltage is less than the reference voltage, (VIN < VREF) the output is “OFF”, and if it is greater than the reference voltage, (VIN > VREF) the output will be “ON”. Thus a comparator compares two voltage levels and determines which one of the two is higher. Fig.2 shows an analogue comparator(1-bit ADC):
 
 <p align="center">
- <img src=""  style="width:50%"/>
+ <img src="https://user-images.githubusercontent.com/38715276/224158649-8a137478-7807-42ee-a6cd-ec0bbd20e58f.png"  style="width:20%"/>
     <br>
     <em>Fig.2. An 1-bit ADC.</em>
 </p>
@@ -30,7 +30,7 @@ in which the opamp structure is shown in fig.
 # Section 3: Pre-Layout Simulation of a 1-Bit ADC
 The schematic of pre-layout simulation in Xschem in shwon in fig.4.
 <p align="center">
- <img src=""  style="width:50%"/>
+ <img src="https://user-images.githubusercontent.com/38715276/224161566-72b37135-e546-4966-abcf-f27f45802161.png"  style="width:50%"/>
     <br>
     <em>Fig.4. The schematic pre-layout simulation in Xschem.</em>
 </p>
@@ -66,7 +66,7 @@ By using Align the generated [.gds and .lef](https://github.com/miladvafaieenezh
 After importing .gds file into Magic and [extraction of parasitic capacitances](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%204/sim/3), the post-layout result is as fig.8
 
  <p align="center">
- <img src=""  style="width:50%"/>
+ <img src="https://user-images.githubusercontent.com/38715276/224161988-9e38be06-aba8-4f8e-aefe-90a87040ed68.png"  style="width:50%"/>
     <br>
     <em>Fig.8. The post-layout simulation result.</em>
 </p>
