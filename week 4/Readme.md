@@ -30,7 +30,7 @@ in which the opamp structure is shown in fig.
 # Section 3: Pre-Layout Simulation of a 1-Bit ADC
 The schematic of pre-layout simulation in Xschem in shwon in fig.4.
 <p align="center">
- <img src="https://user-images.githubusercontent.com/38715276/224161566-72b37135-e546-4966-abcf-f27f45802161.png"  style="width:50%"/>
+ <img src=""/>
     <br>
     <em>Fig.4. The schematic pre-layout simulation in Xschem.</em>
 </p>
@@ -38,9 +38,9 @@ The schematic of pre-layout simulation in Xschem in shwon in fig.4.
 The input and outout of 1-bit ADC is depicted in fig.5.
 
 <p align="center">
- <img src=""  style="width:50%"/>
+ <img src="https://user-images.githubusercontent.com/38715276/224161566-72b37135-e546-4966-abcf-f27f45802161.png"  style="width:50%"  style="width:50%"/>
     <br>
-    <em>Fig.5. The input and outout of 1-bit ADC.</em>
+    <em>Fig.5. The pre-layout's input and outout of 1-bit ADC.</em>
 </p>
 
 The delay of pre-layout implementation equals 0.9ns as illustrated in fig.6.
