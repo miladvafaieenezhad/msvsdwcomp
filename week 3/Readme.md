@@ -14,6 +14,8 @@ $$
     <em>Fig.1. A-three-stage-ring-oscillator.</em>
 </p>
 
+
+
 # Section 2: Pre_Layout Simulation of a 3-Stage-Ring-Oscillator
 
 
@@ -43,6 +45,8 @@ where the period as shown in fig.4 with a red square around that is 0.5ns.
     <em>Fig.4. period calculation for pre-layout simulation of RO.</em>
 </p>
 
+Pre-layout simulation can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%203/sim/1).
+
 # Section 3: Post_Layout Simulation of a 3-Stage-Ring-Oscillator
 
 To generate the layout Align tool is utilised.
@@ -60,7 +64,7 @@ XM6 Y 2 VP VP sky130_fd_pr__pfet_01v8 l=150e-9 w=420e-9 nf=2
 .ends
 ```
 
-and the generated gds and lef files by Align is depicted in fig.5.(a) and (b), respectively.
+and the generated [gds and lef](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%203/sim/2) files by Align is depicted in fig.5.(a) and (b), respectively.
 
 <p  align="center">
  <img src="https://user-images.githubusercontent.com/38715276/222836994-0fb272f4-0a6c-49e0-a5ab-5deda97dfda1.gif"  style="height:250px" style="width:40%" />
@@ -108,6 +112,7 @@ C23 VP VN 9.43fF
 C24 Y VN 0.80fF
 ```
 
+The output of magic can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%203/sim/3).
 
 the oscillation of RO with paracitics capacitances is shown in fig.6.
 <p  align="center">
@@ -123,6 +128,10 @@ where the period as shown in fig.7 with a red square around that is 2.2ns.
     <br>
     <em>Fig.7. The period calculation for post-layout simulation of RO.</em>
 </p>
+
+
+Post-layout simulation can be found [here](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%203/sim/4).
+
 
 # Section 4: Comparison Between Post_Layout and Pre-layout
 
