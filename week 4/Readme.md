@@ -77,4 +77,10 @@ for which the delay equals 19ns as is illustrated in fig.9.
     <em>Fig.9. The delay of post-layout simulation.</em>
 </p>
 
+ # Section 5: Comparison Between Post-Layout and Pre-Layout Results
  
+|      |  Pre-layout | Post-layout |
+| --- | --- | --- |
+| Period | &nbsp;&nbsp;&nbsp;  0.9ns | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   1.9ns |
+
+From table above, the role of parasitic capacitances on delay of the ADC is obvious.
