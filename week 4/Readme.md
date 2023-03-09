@@ -84,3 +84,11 @@ for which the delay equals 19ns as is illustrated in fig.9.
 | Period | &nbsp;&nbsp;&nbsp;  0.9ns | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   1.9ns |
 
 From table above, the role of parasitic capacitances on delay of the ADC is obvious.
+
+ # Section 6: Top Module of Verilog Code for RO and ADC
+ 
+ ```
+ 
+ 
+ ```
+
