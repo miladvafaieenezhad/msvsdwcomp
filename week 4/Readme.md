@@ -30,7 +30,7 @@ in which the opamp structure is shown in fig.3.
 # Section 3: Pre-Layout Simulation of a 1-Bit ADC
 The schematic of pre-layout simulation in Xschem in shwon in fig.4.
 <p align="center">
- <img src=""/>
+ <img src="https://user-images.githubusercontent.com/38715276/224172133-877fd306-a6a9-4bca-adcd-15d6f4bfa843.png"/>
     <br>
     <em>Fig.4. The schematic pre-layout simulation in Xschem.</em>
 </p>
