@@ -32,7 +32,7 @@ The schematic of pre-layout simulation in Xschem in shwon in fig.4.
 <p align="center">
  <img src="https://user-images.githubusercontent.com/38715276/224172133-877fd306-a6a9-4bca-adcd-15d6f4bfa843.png"/>
     <br>
-    <em>Fig.4. The schematic pre-layout simulation in Xschem.</em>
+    <em>Fig.4. The schematic of pre-layout simulation in Xschem.</em>
 </p>
 
 The input and outout of 1-bit ADC is depicted in fig.5.
