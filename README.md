@@ -81,4 +81,30 @@
 <br>
 4. comparison between pre-layout and post-layout
 <hr>
+
+### [week 4](https://github.com/miladvafaieenezhad/msvsdwcomp/blob/main/week%204/Readme.md)
+<br>
+1. Basics of Analogue to Digital Converter
+<br>
+<br>
+2. 1-Bit ADC
+<br>
+<br>
+3. Pre-Layout Simulation of a 1-Bit ADC
+<li> Schematic implementation
+<li> calculation of the period
+<br>
+<br>
+4. Post-Layout Simulation of a 1-Bit ADC
+<li> Layout implementation with Align
+<li> Extracting parasitic capicitances using magic
+<li> Post-layout simulation
+<br>
+<br>
+5. Comparison Between Post-Layout and Pre-Layout Results
+<br>
+<br>
+6. Top Module of Verilog Code for RO and ADC
+
+<hr>
   
