@@ -21,7 +21,7 @@ The reference voltage, VREF is compared against the input voltage, VIN applied t
 in which the opamp structure is shown in fig.3.
 
 <p align="center">
- <img src=""  style="width:50%"/>
+ <img src="https://user-images.githubusercontent.com/38715276/224251713-1fed14d7-c6e0-4cd0-b37c-bdc9680b15c6.png"  style="width:30%"/>
     <br>
     <em>Fig.3. A simple opamp.[2]</em>
 </p>
@@ -91,8 +91,28 @@ From table above, the role of parasitic capacitances on delay of the ADC is obvi
  # Section 6: Top Module of Verilog Code for RO and ADC
  
  ```
- 
- 
+ module  analogue_async_up_down
+(
+input in_RO,
+input in_Vref
+
+output out_ADC
+);
+
+wire RO_ADC;
+
+RO RO_0(
+.in(in_RO),
+.out(out_ADC)
+);
+
+ADC ADC_0(
+.in(RO_ADC),
+.in(in_Vref),
+.out(out_ADC)
+);
+
+endmodule
  ```
 
 
