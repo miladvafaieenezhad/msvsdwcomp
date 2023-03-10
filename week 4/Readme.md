@@ -95,3 +95,5 @@ From table above, the role of parasitic capacitances on delay of the ADC is obvi
  
  ```
 
+
+# References
