@@ -1,5 +1,5 @@
 # Section 1: Basics of Analogue to Digital Converter
-An analog-to-digital converter (ADC, A/D or A-to-D) is an electronic integrated circuit that converts a continuous quantity to a discrete time digital number. An ADC may also provide an isolated measurement. The reverse operation is performed by a digital-to-analog converter (DAC). The conceptual model of ADC is shown in fig.1.
+An analog-to-digital converter (ADC, A/D or A-to-D) is an electronic integrated circuit that converts a continuous quantity to a discrete time digital number. An ADC may also provide an isolated measurement. The reverse operation is performed by a digital-to-analog converter (DAC). The conceptual model of ADC is shown in fig.1.[1]
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/38715276/224112135-07998ed8-ec7b-44ab-8c4e-daea9c20553e.png"  style="width:30%"/>
@@ -23,7 +23,7 @@ in which the opamp structure is shown in fig.3.
 <p align="center">
  <img src=""  style="width:50%"/>
     <br>
-    <em>Fig.3. A simple opamp.</em>
+    <em>Fig.3. A simple opamp.[2]</em>
 </p>
 
 
@@ -97,5 +97,5 @@ From table above, the role of parasitic capacitances on delay of the ADC is obvi
 
 
 # References
-R. Jacob Baker, "Data converter fundamentals" in CMOS circuits design, layout, and simulations, , Hoboken, New Jersey, USA: A JOHN WILEY & SONS, INC, 2010, pp. 930-970. 
-
+[1] R. Jacob Baker, "Data converter fundamentals" in CMOS circuits design, layout, and simulations, , Hoboken, New Jersey, USA: A JOHN WILEY & SONS, INC, 2010, pp. 930-970. <br>
+[2] A. Kamath, Z. Chen, N. Shen, N. Singh, G. Q. Lo, D. L. Kwong,D. Kasprowicz, A. Pfitzner and W. Maly, “Realizing AND and ORFunctions With Single Vertical-Slit Field-Effect Transistor,” in IEEEElectron Device Letters, vol. 33, no. 2, pp. 152-154, Feb. 2012. doi:10.1109/LED.2011.2176309
