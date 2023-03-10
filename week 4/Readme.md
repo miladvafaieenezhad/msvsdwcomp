@@ -97,5 +97,5 @@ From table above, the role of parasitic capacitances on delay of the ADC is obvi
 
 
 # References
-R. Jacob Baker, "Data converter fundamentals" in CMOS circuits design, layout, and simulations, New york, NY, USA: McGraw-Hill, Inc, 2005, pp. 930-970. 
+R. Jacob Baker, "Data converter fundamentals" in CMOS circuits design, layout, and simulations, , Hoboken, New Jersey, USA: A JOHN WILEY & SONS, INC, 2010, pp. 930-970. 
 
