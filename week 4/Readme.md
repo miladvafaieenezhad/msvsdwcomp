@@ -84,12 +84,13 @@ Post layout simulation files can be found [here](https://github.com/miladvafaiee
  
  <div align="center">
  
+ <em>Table I. Comparison of pre and post-layout results of ADC.</em>
 |      |  Pre-layout | Post-layout |
 | :---: | :---: | :---: |
 | Period |  0.9ns | 1.9ns |
 </div>
 
-From table above, the role of parasitic capacitances on delay of the ADC is obvious.
+From table I, the role of parasitic capacitances on delay of the ADC is obvious.
 
  # Section 6: Pre-Layout simulation of RO_ADC
  
@@ -122,17 +123,17 @@ The result in comparison with pre-layut simulation shows that speed seems to be 
 
 # Section 8: Comparison of Pre and Post-Layout results of RO_ADC
 
+Table II summerizes the pre and post-layout results. as shown, the period of RO in increases from 0.7ns to 2.6ns, and also the delay of ADC increases from 68ps to 173ps. These changes are resulted because of exictance of parasitic capasitances in post-layout simulation.
+
  <div align="center">
  
- <em>Table II. Comparison of pre and post-layout result of RO_ADC.</em>
+ <em>Table II. Comparison of pre and post-layout results of RO_ADC.</em>
 |      |  Pre-layout | Post-layout |
 | :---: | :---: | :---: |
  | Period of RO |  0.7ns | 2.6ns |
 | Delay of ADC |  68ps | 173ps |<br>
 
 </div>
-
-
 
 
  # Section 9: Top Module of Verilog Code for RO and ADC
