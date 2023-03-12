@@ -124,11 +124,16 @@ The result in comparison with pre-layut simulation shows that speed seems to be 
 
  <div align="center">
  
+ <em>Table II. Comparison of pre and post-layout result of RO_ADC.</em>
 |      |  Pre-layout | Post-layout |
 | :---: | :---: | :---: |
  | Period of RO |  0.7ns | 2.6ns |
-| Delay of ADC |  68ps | 173ps |
+| Delay of ADC |  68ps | 173ps |<br>
+
 </div>
+
+
+
 
  # Section 9: Top Module of Verilog Code for RO and ADC
  
