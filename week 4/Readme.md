@@ -82,9 +82,12 @@ Post layout simulation files can be found [here](https://github.com/miladvafaiee
 
  # Section 5: Comparison Between Post-Layout and Pre-Layout Results
  
+ <div align="center">
+ 
 |      |  Pre-layout | Post-layout |
-| --- | --- | --- |
-| Period | &nbsp;&nbsp;&nbsp;  0.9ns | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   1.9ns |
+| :---: | :---: | :---: |
+| Period |  0.9ns | 1.9ns |
+</div>
 
 From table above, the role of parasitic capacitances on delay of the ADC is obvious.
 
