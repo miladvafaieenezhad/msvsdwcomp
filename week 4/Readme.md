@@ -111,9 +111,26 @@ After changing the sizing of ADC to increase the ADC operating frequency point, 
 
 # Section 7: Post-Layout simulation of RO_ADC
 
-To consider the effects of parasitics capacitances on RO_ADC, by using align and magic as discussed in previous weeks, the result of post-layout simulation is illustrated in fig.12.
+To consider the effects of parasitic capacitances on RO_ADC, by using align and magic as discussed in previous weeks, the result of post-layout simulation is illustrated in fig.12.
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/38715276/224537854-1ab614cd-2baa-4b6e-b3b8-103ae3e227cd.png"  style="width:50%"/>
+    <br>
+    <em>Fig.11. The output of RO_ADC.</em>
+</p>
+The result in comparison with pre-layut simulation shows that speed seems to be decreased. in the next section two post and pre-layout simulations will be compared.
 
- # Section 6: Top Module of Verilog Code for RO and ADC
+
+# Section 8: Comparison of Pre and Post-Layout results of RO_ADC
+
+ <div align="center">
+ 
+|      |  Pre-layout | Post-layout |
+| :---: | :---: | :---: |
+ | Period of RO |  0.7ns | 2.6ns |
+| Delay of ADC |  68ps | 173ps |
+</div>
+
+ # Section 9: Top Module of Verilog Code for RO and ADC
  
  ```
  module  analogue_async_up_down
