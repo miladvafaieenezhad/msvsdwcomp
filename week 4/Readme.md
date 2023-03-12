@@ -91,6 +91,28 @@ Post layout simulation files can be found [here](https://github.com/miladvafaiee
 
 From table above, the role of parasitic capacitances on delay of the ADC is obvious.
 
+ # Section 6: Pre-Layout simulation of RO_ADC
+ 
+ To ensure that the designed RO in the last week is compatible with the our ADC, the output of RO is connected to ADC to make RO_ADC. The schematic is shown in fig.10. 
+ 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/38715276/224537367-11509898-b19b-4a83-8614-bb2415e16653.png"  style="width:50%"/>
+    <br>
+    <em>Fig.10. The schematic of RO_ADC.</em>
+</p>
+
+
+After changing the sizing of ADC to increase the ADC operating frequency point, as depicted in fig.11 the RO_ADC works properly.
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/38715276/224537402-dd11936c-7530-4a58-9436-39e4e406c785.png"  style="width:50%"/>
+    <br>
+    <em>Fig.11. The output of RO_ADC.</em>
+</p>
+
+# Section 7: Post-Layout simulation of RO_ADC
+
+To consider the effects of parasitics capacitances on RO_ADC, by using align and magic as discussed in previous weeks, the result of post-layout simulation is illustrated in fig.12.
+
  # Section 6: Top Module of Verilog Code for RO and ADC
  
  ```
