@@ -107,7 +107,7 @@ After changing the sizing of ADC to increase the ADC operating frequency point, 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/38715276/224537402-dd11936c-7530-4a58-9436-39e4e406c785.png"  style="width:50%"/>
     <br>
-    <em>Fig.11. The output of RO_ADC.</em>
+    <em>Fig.11. The output of pre-layout simulation.</em>
 </p>
 
 # Section 7: Post-Layout simulation of RO_ADC
@@ -116,7 +116,7 @@ To consider the effects of parasitic capacitances on RO_ADC, by using align and 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/38715276/224537854-1ab614cd-2baa-4b6e-b3b8-103ae3e227cd.png"  style="width:50%"/>
     <br>
-    <em>Fig.11. The output of RO_ADC.</em>
+    <em>Fig.12. The output of post-layout simulation.</em>
 </p>
 The result in comparison with pre-layut simulation shows that speed seems to be decreased. in the next section two post and pre-layout simulations will be compared.
 
