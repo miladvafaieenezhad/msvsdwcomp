@@ -91,7 +91,7 @@
 <br>
 5. Comparison Between Post-Layout and Pre-Layout Results of ADC
 <br>
-6. Pre-Layout simulation of RO_ADC
+6. Pre-Layout simulation of combination of RO and ADC(RO_ADC)
 <br>
 7. Post-Layout simulation of RO_ADC
 <br>
@@ -100,5 +100,9 @@
 9. Top Module of Verilog Code for RO and ADC
 
 <hr>
-  
+
+### [week 5](https://github.com/miladvafaieenezhad/msvsdwcomp/blob/main/week%204/Readme.md)
+<br>
+1. Layout implementation for RO and ADC by using OpenFASoC 
+<hr>
 # acknowledgement
