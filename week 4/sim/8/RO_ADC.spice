@@ -1,0 +1,21 @@
+** sch_path: /home/milad/.xschem/xschem_library/VSD/week4/5.post_RO_ADC/RO_ADC.sch
+**.subckt RO_ADC
+Vs Vref GND 0.9
+Vdd VDD GND 1.8
+x1 Va VDD Va GND 3_stage_RO
+x2 Vref Va GND VDD Vout opamp
+**** begin user architecture code
+ .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.tran 0.01n 10n
+.include ~/.xschem/xschem_library/VSD/week4/5.post_RO_ADC/MY_RO.spice
+.include ~/.xschem/xschem_library/VSD/week4/5.post_RO_ADC/MY_OPAMP.spice
+.IC v(VA)=1.8
+.measure tran delay  TRIG v(Va)   TD=5n VAL=0.9 FALL=1  TARG v(Vout) TD=5n VAL=0.9 FALL=1
+.save all
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.GLOBAL VDD
+.end

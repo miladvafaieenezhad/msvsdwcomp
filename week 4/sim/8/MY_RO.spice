@@ -1,0 +1,41 @@
+* SPICE3 file created from MY_RO_0.ext - technology: sky130A
+
+.subckt 3_stage_RO A VP Y VN
+x0 1 A VN VN sky130_fd_pr__nfet_01v8 w=0.42 l=0.15 nf=2
+x1 2 1 VN VN sky130_fd_pr__nfet_01v8 w=0.42 l=0.15 nf=2
+x2 Y 2 VN VN sky130_fd_pr__nfet_01v8 w=0.42 l=0.15 nf=2
+*x3 VN 2 Y VN sky130_fd_pr__nfet_01v8 w=0.42 l=0.15
+*x4 VN A 1 VN sky130_fd_pr__nfet_01v8 w=0.42 l=0.15
+*x5 VN 1 2 VN sky130_fd_pr__nfet_01v8 w=0.42 l=0.15
+x6 1 A VP VP sky130_fd_pr__pfet_01v8 w=0.42 l=0.15 nf=2
+x7 2 1 VP VP sky130_fd_pr__pfet_01v8 w=0.42 l=0.15 nf=2
+x8 Y 2 VP VP sky130_fd_pr__pfet_01v8 w=0.42 l=0.15 nf=2
+*x9 VP 2 Y VP sky130_fd_pr__pfet_01v8 w=0.42 l=0.15
+*x10 VP 1 2 VP sky130_fd_pr__pfet_01v8 w=0.42 l=0.15
+*x11 VP A 1 VP sky130_fd_pr__pfet_01v8 w=0.42 l=0.15
+C0 A 1 0.35fF
+C1 Y 2 0.13fF
+C2 Y 1 0.00fF
+C3 A 2 0.00fF
+C4 Y VP 0.70fF
+C5 2 VP 0.92fF
+C6 A 2 0.01fF
+C7 VP VP 0.00fF
+C8 2 1 0.18fF
+C9 A VP 0.55fF
+C10 VP 1 1.57fF
+C11 Y VP 0.40fF
+C12 A VN 0.01fF
+C13 Y VP 0.00fF
+C14 VP VN 0.94fF
+C15 2 VP 1.72fF
+C16 Y 1 0.00fF
+C17 VN 1 0.26fF
+C18 Y VP 0.00fF
+C19 VP VN 0.28fF
+C20 A VN 1.45fF 
+C21 2 VN 2.98fF
+C22 1 VN 2.37fF
+C23 VP VN 9.43fF
+C24 Y VN 0.80fF
+.ends

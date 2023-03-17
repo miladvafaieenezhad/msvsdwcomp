@@ -1,0 +1,67 @@
+.subckt opamp  A B VN VP Y
+
+XM1 n1 VP VN VN sky130_fd_pr__nfet_01v8 l=.15 w=1.05 nf=2
+XM2 Y  n2 VN VN sky130_fd_pr__nfet_01v8 l=.15 w=1.05 nf=2
+XM3 n2 n3 VN VN sky130_fd_pr__nfet_01v8 l=.15 w=1.05 nf=2
+XM4 n3 n3 VN VN sky130_fd_pr__nfet_01v8 l=.15 w=1.05 nf=2
+
+XM6 n2 B  n4 VP sky130_fd_pr__pfet_01v8 l=.15 w=2.1 nf=2
+XM5 n3 A  n4 VP sky130_fd_pr__pfet_01v8 l=.15 w=2.1 nf=2
+XM7 n4 n1 VP VP sky130_fd_pr__pfet_01v8 l=.15 w=2.1 nf=2
+XM8 n1 n1 VP VP sky130_fd_pr__pfet_01v8 l=.15 w=2.1 nf=2
+XM9 Y  n1 VP VP sky130_fd_pr__pfet_01v8 l=.15 w=2.1 nf=2
+
+C0 Y n4 0.01fF
+C1 n2 n4 0.71fF
+C2 B n4 0.01fF
+C3 A n4 0.02fF
+C4  Y n4 0.01fF
+C5 B VP 0.19fF
+C6 VP n4 1.49fF
+C7  n1 VN 0.02fF
+C8 n3 n4 0.87fF
+C9 Y VN 0.08fF
+C10 n2 VN 0.21fF
+C11 B VN 0.01fF
+C12 A VN 0.00fF
+C13 A VP 0.19fF
+C14 A n3 0.04fF
+C15 VP VN 0.34fF
+C16  n1 Y 0.06fF
+C17 n2  n1 0.29fF
+C18 n3 VN 0.06fF
+C19  n1 B 0.01fF
+C20 n2 Y 0.08fF
+C21  n1 A 0.02fF
+C22 B n4 0.03fF
+C23  n1  Y 0.26fF
+C24 Y B 0.00fF
+C25 n2 A 0.00fF
+C26  n1 VP 2.92fF
+C27 n2  Y 0.14fF
+C28 A B 0.04fF
+C29 n3  n1 0.28fF
+C30 VP Y 0.13fF
+C31 n2 VP 0.82fF
+C32 n3 Y 0.06fF
+C33 n2 n3 0.50fF
+C34 VP B 0.05fF
+C35 A VP 0.05fF
+C36 A n4 0.03fF
+C37 n3 B 0.07fF
+C38  Y VP 0.73fF
+C39 n3 A 0.01fF
+C40 n3  Y 0.00fF
+C41 VN n4 0.06fF
+C42 n3 VP 0.62fF
+C43  n1 n4 0.23fF
+C44 n2 B 0.04fF
+C45 VP  VN 12.80fF
+C46  Y  VN 1.15fF **FLOATING
+C47 n3  VN 1.64fF **FLOATING
+C48 A  VN 0.25fF **FLOATING
+C49 n2  VN 1.50fF **FLOATING
+C50 n4  VN 0.22fF **FLOATING
+C51 B  VN 0.25fF **FLOATING
+C52  n1  VN 0.85fF **FLOATING
+.ends
