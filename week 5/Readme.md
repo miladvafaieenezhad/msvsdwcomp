@@ -16,4 +16,11 @@ Fig.2 shows results after synthesis.
     <em>Fig.2. the result of synthesis.</em>
 </p>
 
-i face an error in fllorplan step.
+Fig.3 illustrates results for floorplan.
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/38715276/226011873-cb524de6-efff-44fa-83a0-4247c1c5b0b9.PNG"  style="width:50%"/>
+    <br>
+    <em>Fig.3. the result of floorplan.</em>
+</p>
+
+I face an error in placement step.
