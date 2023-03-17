@@ -15,3 +15,5 @@ Fig.2 shows results after synthesis.
     <br>
     <em>Fig.2. the result of synthesis.</em>
 </p>
+
+i face an error in fllorplan step.
