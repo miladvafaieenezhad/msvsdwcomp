@@ -105,5 +105,10 @@
 <br>
 1. Layout implementation for RO and ADC by using OpenFASoC 
 <hr>
+
+### [week 6](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%206)
+<br>
+1. Layout implementation for RO and ADC by using OpenFASoC 
+<hr>
   
 # acknowledgement
