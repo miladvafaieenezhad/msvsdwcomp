@@ -20,12 +20,13 @@ If two op-amps connect to each other as is shown in fig.1 the result circuit can
 </p>
 
 
+
 # Section 2: Pre-Layout Simulation of window comparator
-The schematic of pre-layout simulation in Xschem in shwon in fig..
+The schematic of pre-layout simulation in Xschem in shwon in fig.3.
 <p align="center">
- <img src=""/>
+ <img src="https://user-images.githubusercontent.com/38715276/229220928-419f69d9-580d-413f-bc01-a518eb9ffe82.PNG"/>
     <br>
-    <em>Fig.4. The schematic of pre-layout simulation in Xschem.</em>
+    <em>Fig.3. The schematic of pre-layout simulation in Xschem.</em>
 </p>
 
 The input and outout of window comparator is depicted in fig.5.
@@ -36,11 +37,10 @@ The input and outout of window comparator is depicted in fig.5.
     <em>Fig.5. The pre-layout's input and outout of window comparator.</em>
 </p>
 
-The delay of pre-layout implementation equals XXXXX.
 
 # Section 3: Post-Layout Simulation of window comparator
 
-the post-layout result is as fig.8
+the post-layout result is as fig.6
 
  <p align="center">
  <img src=""  style="width:50%"/>
@@ -48,16 +48,3 @@ the post-layout result is as fig.8
     <em>Fig.8. The post-layout simulation result.</em>
 </p>
 
-for which the delay equals xxxx.
-
- # Section 4: Comparison Between Post-Layout and Pre-Layout Results
- 
- <div align="center">
- 
- <em>Table I. Comparison of pre and post-layout results of ADC.</em>
-|      |  Pre-layout | Post-layout |
-| :---: | :---: | :---: |
-|  |   |  |
-</div>
-
-From table I, the role of parasitic capacitances on    xdxxxxx.
