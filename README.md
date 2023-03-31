@@ -7,7 +7,6 @@
  ## What I have done in each week is summarized below:<br>
   
 ### [week 0](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%200)
-<br>  
 1. Tools installed
 <li> Magic<br>   
 <li> Xschem<br>
@@ -28,7 +27,6 @@
 <hr>
   
 ### [week 1](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%201)
-<br>
 1. Post-layout simulation for Inverter by using Align 
 <br>
 2. Pre-layout simulation of FN
@@ -44,7 +42,6 @@
 <hr>
   
 ### [week 2](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%202)
-<br>
 1. OpenFASoC installation
 <li> Openroad installation
 <li> Yosys installation
@@ -58,7 +55,6 @@
 <hr>
 
 ### [week 3](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%203)
-<br>
 1. Basics of ring oscillator
 <br>
 2. Pre-layout simulation of a ring oscillator
@@ -75,7 +71,6 @@
 <hr>
 
 ### [week 4](https://github.com/miladvafaieenezhad/msvsdwcomp/blob/main/week%204/Readme.md)
-<br>
 1. Basics of Analogue to Digital Converter
 <br>
 2. 1-Bit ADC
@@ -102,7 +97,11 @@
 <hr>
 
 ### [week 5](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%205)
-<br>
+1. Layout implementation for RO and ADC by using OpenFASoC 
+<hr>
+
+  
+ ### [week 6](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%206)
 1. Layout implementation for RO and ADC by using OpenFASoC 
 <hr>
 
