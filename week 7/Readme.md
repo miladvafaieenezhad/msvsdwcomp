@@ -40,11 +40,10 @@ The input and outout of window comparator is depicted in fig.4.
 
 # Section 3: Post-Layout Simulation of window comparator
 
-the post-layout result is as fig.6
+the post-layout result is as fig.5
 
  <p align="center">
- <img src=""  style="width:50%"/>
+ <img src="https://user-images.githubusercontent.com/38715276/229225112-7427b53a-7061-46ef-9fe2-166439cf9e2e.PNG"  style="width:50%"/>
     <br>
-    <em>Fig.8. The post-layout simulation result.</em>
+    <em>Fig.5. The post-layout simulation result.</em>
 </p>
-
