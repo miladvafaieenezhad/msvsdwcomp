@@ -1,6 +1,10 @@
 # Section 1: Basics of window comparator
 A window comparator consists of two op-amp. Op-amps have two inputs, inverting input (+) and non-inverting input (-), and they operate as (1), where A0 is voltage gain.
-V_o=A_0 (V_+-V_-)                       (1)
+
+$$ 
+V_o=A_0 (V_+-V_-)          \tag{1} 
+$$
+ 
 If two op-amps connect to each other as is shown in fig.1 the result circuit can be a window comparator. In a window comparator circuit, if the input voltage (VIN) rises above a certain level (VLOW), the output voltage (VO) reach VDD, and if VIN rises more to above VHIGH, VO drops to GND. In sum, VO is only ON for voltages in between VLOW and VHIGH. Fig. 2 shows how a window comparator works. 
 
 <p align="center">
