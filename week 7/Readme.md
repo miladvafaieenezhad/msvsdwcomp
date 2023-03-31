@@ -29,12 +29,12 @@ The schematic of pre-layout simulation in Xschem in shwon in fig.3.
     <em>Fig.3. The schematic of pre-layout simulation in Xschem.</em>
 </p>
 
-The input and outout of window comparator is depicted in fig.5.
+The input and outout of window comparator is depicted in fig.4.
 
 <p align="center">
- <img src=""  style="width:50%"  style="width:50%"/>
+ <img src="https://user-images.githubusercontent.com/38715276/229222597-77ad28c9-3c07-4dfa-844a-ebf0322b98d1.PNG"  style="width:50%"  style="width:50%"/>
     <br>
-    <em>Fig.5. The pre-layout's input and outout of window comparator.</em>
+    <em>Fig.4. The pre-layout's inputs and outout of window comparator.</em>
 </p>
 
 
