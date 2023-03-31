@@ -106,9 +106,15 @@
 1. Layout implementation for RO and ADC by using OpenFASoC 
 <hr>
 
-### [week 6](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%206)
+### [week 7](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%207)
 <br>
-1. Layout implementation for RO and ADC by using OpenFASoC 
+1. Checking the correctness of implementation Ro_ADC in OpenFASoC 
+3. Pre-Layout simulation of window comparator
+<br>
+4. Post-Layout simulation of window comparator
+<br>
+5. Comparison of Pre and Post-Layout results of window comparator
+
 <hr>
   
 # acknowledgement
