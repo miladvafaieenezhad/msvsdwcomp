@@ -95,9 +95,9 @@
 
 ### [week 7](https://github.com/miladvafaieenezhad/msvsdwcomp/tree/main/week%207)
 1. Checking the correctness of Ro_ADC implementation using OpenFASoC 
-2. Pre-Layout simulation of window comparator
-3. Post-Layout simulation of window comparator
-4. Comparison of Pre and Post-Layout results of window comparator
+2. basics of window comparator
+3. Pre-Layout simulation of window comparator
+4. Post-Layout simulation of window comparator
 
 <hr>
   
